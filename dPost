@@ -2,7 +2,6 @@ function tampilkanDaftarPost() {
     var daftarPost = "";
     var judulPost, urlPost, thumbnail;
     var jumlahPost = 6;
-    
     $.ajax({
         url: "https://air.omasae.com/feeds/posts/default",
         type: "GET",
