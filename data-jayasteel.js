@@ -37,15 +37,6 @@ var bb = [" Termurah",
 " Terkini",
 " Terbaru"];
 
-var arrb = [" Januari"," Februari"," Maret"," April"," Mei"," Juni"," Juli"," Agustus"," September"," Oktober"," November"," Desember"];
-var date = new Date();
-var bln = date.getMonth();
-var bln = arrb[bln];
-var bul = bln;
-var thn = date.getFullYear();
-  
-var ju8 = (document.title.slice(35, -28));
-
 var r3 = [" sedang mencari ",
 " searching ",
 " mencari ",
@@ -122,29 +113,12 @@ var rrt = ["admin ",
 "nomor WA ",
 ""];
 
-var y7 = [" Besi Beton",
-" besi beton neser",
-" betoneser (besi beton)",
-" besi cor",
-" baja tulangan beton",
-" Baja Tulangan",
-" besi beton (deform bar)",
-" besi batangan (besi beton)",
-" besi bulat / besi beton"];
-
 var y9 = [" besi beton polos",
 " baja tulangan polos",
 " besi beton polos (round bar)",
 " baja tulangan polos (BJTP)",
 " besi batangan polos (besi beton polos)",
 " besi polos (besi beton polos)"];
-
-var y8 = [" Wiremesh",
-" wire mesh",
-" Wermes (wiremesh)",
-" anyaman besi (wiremesh)",
-" besi Wiremesh",
-" besi anyaman cor (wire mesh)"];
 
 var y6 = [" besi beton ulir",
 " baja tulangan ulir",
