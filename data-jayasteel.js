@@ -44,7 +44,7 @@ var bln = arrb[bln];
 var bul = bln;
 var thn = date.getFullYear();
   
-var ju8 = document.title.slice(35, -28);
+var ju8 = (document.title.slice(35, -28));
 
 var r3 = [" sedang mencari ",
 " searching ",
