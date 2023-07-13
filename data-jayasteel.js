@@ -37,18 +37,14 @@ var bb = [" Termurah",
 " Terkini",
 " Terbaru"];
 
-arrb = [" Januari"," Februari"," Maret"," April"," Mei"," Juni"," Juli"," Agustus"," September"," Oktober"," November"," Desember"];
-date = new Date();
-bln = date.getMonth();
-bln = arrb[bln];
-bul = bln;
-thn = date.getFullYear();
-
-var bbln = Math.floor(2*Math.random());
-if (bbln==1){bln = bbi};
+var arrb = [" Januari"," Februari"," Maret"," April"," Mei"," Juni"," Juli"," Agustus"," September"," Oktober"," November"," Desember"];
+var date = new Date();
+var bln = date.getMonth();
+var bln = arrb[bln];
+var bul = bln;
+var thn = date.getFullYear();
   
-var llg = document.title.length - 28;
-var ju8 = str.substring(35, llg);
+var ju8 = document.title.slice(35, -28);
 
 var r3 = [" sedang mencari ",
 " searching ",
@@ -847,7 +843,7 @@ var z6 = [" Harga Besi Beton 8 Mm Di NTT",
 " Wire Mesh Q221/221",
 " Wire Mesh Qatar"];
 
-var rr5 = [" Wire Mesh Qld",
+var rr6 = [" Wire Mesh Qld",
 " Wire Mesh Quarter Inch",
 " Wire Mesh Quebec",
 " Wire Mesh Queen Intro Cage",
