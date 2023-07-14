@@ -6,18 +6,6 @@ var s1 = ["Perkenalkan kami dari ",
 "Persembahan dari ",
 "Kami berusaha terus mengikuti perkembangan, dan kebutuhan pasar tetap menjadi perioritas kami. Tambahan info bagi Anda, dari "];
 
-var t1 = [" Jual",
-" Menjual",
-" Dijual",
-" Harga",
-" Update Harga",
-" Harga Terbaru",
-" Harga Hari Ini",
-" Harga Terkini",
-" Update Harga Terbaru",
-" Update Harga Hari Ini",
-" Update Harga Terkini"];
-
 var t2 = [" dan Info",
 " juga Tentang",
 " & Mengenai",
@@ -161,19 +149,6 @@ var f4 = [" bisa menghubungi",
 " bisa tanyakan kepada admin kami atau anda buka di ",
 " bisa dilihat di",
 " bisa dibuka di"];
-
-var f5 = [" untuk proyek anda dan untuk suplai distributor di Surabaya dan sekitarnya atau tempat lain di Indonesia",
-"",
-" sesuai dengan yang anda butuhkan",
-" untuk keperluan anda",
-" untuk proyek anda atau stok toko anda",
-" untuk proyek anda dan untuk suplai distributor di tempat anda",
-" untuk proyek anda dan untuk suplai distributor di daerah anda, juga mengenai cara order, pengiriman, dan pembayaran",
-" untuk kebutuhan anda, mengenai stok, pengiriman dan yang lain",
-" untuk melayani proyek customer anda",
-" sesuai permintaan anda dan pelanggan anda",
-" dan jangan ragu untuk menghubungi kami segera",
-" update hari ini dan pemesanan"];
 
 var yy = [" pabrik yang memperhatikan standar juga untuk konstruksi baja",
 " untuk melayani kebutuhan Anda",
