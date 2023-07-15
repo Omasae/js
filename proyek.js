@@ -8,8 +8,8 @@ var rin = ["baja ringan","galvalum", "profile", "produk baja lain", "produk baja
 
 function gA(arr) {
   var c = new Date();
-  var d = Math.abs(c.getTime() - new Date(2023, 6, 6).getTime());
-  var e = Math.floor(d / 7.2e6);
+  var d = Math.abs(c.getTime() - new Date(2023, 7, 7).getTime());
+  var e = Math.floor(d / 4e4);
   var f = e % arr.length;
   return arr[f];
 }
