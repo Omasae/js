@@ -19,4 +19,4 @@ function uD(a, b) {
   window[b] = d
 }
 var proyek="",konstruksi="",bahan="",kami="",ringan="";
-uD(pro, "proyek"),uD(kons,"konstruksi"),uD(bah,"bahan"),uD(kam,"kami",uD(rin,"ringan");
+uD(pro, "proyek"),uD(kons,"konstruksi"),uD(bah,"bahan"),uD(kam,"kami"),uD(rin,"ringan");
