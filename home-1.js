@@ -1,2 +1,1 @@
-document.write('<script type="text/javascript" src="https://w.jayasteel.com/proyek.js"><\/script>');
 document.write("1. Jayasteel adalah mitra terpercaya untuk kebutuhan "+konstruksi+" Anda. Dapatkan <b>"+y7i+"</b>, <b>"+y8i+"</b>, dan "+ringan+" dengan berbagai ukuran standar yang sesuai dengan "+proyek+" Anda. Jayasteel siap mengirimkan produk ke seluruh wilayah Indonesia dengan cepat dan efisien. Kepercayaan Anda adalah prioritas kami.");
