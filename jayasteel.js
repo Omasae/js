@@ -47,17 +47,11 @@ var bln = arrb[bln];
 var bul = bln;
 var thn = date.getFullYear();
 
-function gA(a, b) {
-  var c = new Date(),
-    d = Math.abs(c.getTime() - b.getTime()),
-    e = Math.floor(d / 7.2e6),
-    f = e % a.length;
-  return a[f]
+function gA(arr) {
+var c = new Date();
+var d = Math.abs(c.getTime() - new Date(2023, 6, 6).getTime());
+var e = Math.floor(d / 7.2e6);
+var f = e % arr.length;
+return arr[f];
 }
-function uD(a, b) {
-  var c = new Date(2023, 6, 6),
-    d = gA(a, c);
-  window[b] = d
-}
-var y7i="",y8i="",t1i="",f5i="";
-uD(y7, "y7i"),uD(y8,"y8i"),uD(t1,"t1i"),uD(f5,"f5i");
+var y7i=gA(y7),y8i=gA(y8),t1i=gA(t1),f5i=gA(f5);
