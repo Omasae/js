@@ -1,0 +1,1 @@
+document.write("Produk <b>wiremesh</b> yang kami tawarkan adalah pilihan umum yang digunakan oleh para aplikator bangunan dan tersedia di pasaran. Ukuran standar yang banyak digunakan ini praktis dalam proses produksi <b>wiremesh</b>, pengiriman, serta pengerjaan di lapangan menggunakan <b>wiremesh</b> sebagai bahan utama.");
