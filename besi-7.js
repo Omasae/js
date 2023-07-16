@@ -1,0 +1,1 @@
+document.write("Penggunaan <b>besi beton</b> atau baja tulangan tidak hanya memperkuat struktur, tetapi juga memberikan keandalan dan daya tahan yang lebih baik. Hal ini membantu memastikan bahwa bangunan dapat bertahan dalam jangka waktu yang lama dan mampu menghadapi beban yang mungkin terjadi.");
