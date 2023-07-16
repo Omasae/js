@@ -63,7 +63,7 @@ var j1 = [" ",
 " update",
 " untuk"];
 
-var j2 = [" harga",
+var j2 = [" harga -",
 " perkembangan",
 " info",
 " informasi",
