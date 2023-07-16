@@ -1,0 +1,1 @@
+document.write("Dalam konstruksi, pemahaman tentang kegunaan dan manfaat <b>besi beton</b> atau baja tulangan sangat penting. Dengan memanfaatkannya dengan tepat, struktur bangunan dapat menjadi lebih kuat dan kokoh, serta mampu bertahan dalam berbagai kondisi dan beban yang diberikan.");
