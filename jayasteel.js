@@ -47,11 +47,5 @@ var bln = arrb[bln];
 var bul = bln;
 var thn = date.getFullYear();
 
-function gA(arr) {
-var c = new Date();
-var d = Math.abs(c.getTime() - new Date(2023, 6, 6).getTime());
-var e = Math.floor(d / 7.2e6);
-var f = e % arr.length;
-return arr[f];
-}
-var y7i=gA(y7),y8i=gA(y8),t1i=gA(t1),f5i=gA(f5);
+function gC(a){return a[Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,6).getTime())/72e5)%a.length)]}
+var y7i=gC(y7),y8i=gC(y8),t1i=gC(t1),f5i=gC(f5);
