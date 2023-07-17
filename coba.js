@@ -40,4 +40,4 @@ var u = ["1. Dapatkan keunggulan besi beton yang dapat membantu memberikan ponda
 document.addEventListener("DOMContentLoaded",()=>{
   var e=Math.floor((Math.abs(new Date()-new Date(2023,6,10))/2e5)%u.length),
     f=Math.floor((Math.abs(new Date()-new Date(2023,6,16))/3e5)%v.length);
-  document.write(u[e]+v[f])});
+  document.write(u[e]+v[f]);});
