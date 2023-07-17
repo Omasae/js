@@ -37,6 +37,6 @@ var v = ["1. Dapatkan keunggulan besi beton untuk memperkuat pondasi bangunan An
 "17. Dapatkan besi beton dengan berbagai ukuran dan spesifikasi yang sesuai dengan kebutuhan proyek Anda.",
 "18. Konsultasikan dengan ahli kami untuk memilih besi beton yang tepat sesuai dengan kebutuhan konstruksi Anda.",
 "19. Keandalan besi beton adalah kunci keberhasilan konstruksi. Percayakan pada kami untuk mendapatkan produk berkualitas dan layanan terbaik."];
-var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 3e5) % u.length);
-var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 2e5) % v.length);
+var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 3e7) % u.length);
+var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 4e7) % v.length);
 document.write(u[d]+v[e]);
