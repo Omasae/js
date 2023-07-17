@@ -1,0 +1,43 @@
+var u = ["Furnitur Sesuai Keinginan: ",
+"Furnitur Custom: ",
+"Furnitur Sesuai Selera: ",
+"Furnitur Personalized: ",
+"Furnitur Sesuai Impian: ",
+"Furnitur Unik dan Sesuai Keinginan: ",
+"Furnitur Pribadi: ",
+"Furnitur Kustom: ",
+"Furnitur Menurut Keinginanmu: ",
+"Furnitur Sesuai Selera dan Kebutuhan: ",
+"Furnitur yang Kamu Mau: ",
+"Furnitur yang Sesuai Impian: ",
+"Pesan Furnitur Sesuai Keinginan : "];
+var v = ["~Kami siap memenuhi kebutuhan furniturmu dengan desain custom. ",
+"~Dapatkan furnitur yang sesuai dengan keinginanmu. ",
+"~Dapatkan furnitur sesuai keinginanmu. ",
+"~Dapatkan furnitur yang sesuai dengan selera dan keinginanmu. ",
+"~Dapatkan furnitur yang dipersonalisasi sesuai keinginanmu. ",
+"~Wujudkan furnitur impianmu. ",
+"~Dapatkan furnitur yang unik dan sesuai dengan keinginanmu. ",
+"~Wujudkan furnitur pribadimu. ",
+"~Dapatkan furnitur sesuai keinginanmu. ",
+"~Dapatkan furnitur yang sesuai dengan keinginanmu. ",
+"~Dapatkan furnitur yang sesuai dengan selera dan kebutuhanmu. ",
+"~Wujudkan furnitur yang sesuai dengan keinginanmu. ",
+"~Dapatkan furnitur yang sesuai dengan impianmu. "];
+var w = ["Kamu bisa pilih sendiri ukuran, warna, dan bentuknya sesuai yang kamu mau.~ ",
+"Kami menyediakan desain custom dengan pilihan ukuran, warna, dan bentuk yang bisa kamu pilih sendiri.~ ",
+"Kami menyediakan desain custom dengan ukuran, warna, dan bentuk yang bisa kamu pilih sesuai yang kamu mau.~ ",
+"Kami menawarkan desain custom dengan ukuran, warna, dan bentuk yang bisa kamu pilih sesuai keinginanmu.~ ",
+"Kami menyediakan desain custom dengan beragam pilihan ukuran, warna, dan bentuk.~ ",
+"Kamu bisa memilih ukuran, warna, dan bentuk furnitur sesuai yang kamu mau.~ ",
+"Kami menyediakan desain custom dengan ukuran, warna, dan bentuk yang bisa kamu pilih sesuai dengan keinginanmu.~ ",
+"Kami menyediakan desain custom dengan beragam pilihan ukuran, warna, dan bentuk.~ ",
+"Kami menyediakan desain custom dengan ukuran, warna, dan bentuk yang bisa kamu pilih sesuai keinginanmu.~ ",
+"Kami menyediakan desain custom dengan berbagai pilihan ukuran, warna, dan bentuk.~ ",
+"Kami menyediakan desain custom dengan pilihan ukuran, warna, dan bentuk yang bisa kamu pilih.~ ",
+"Kami menyediakan desain custom dengan beragam pilihan ukuran, warna, dan bentuk.~ ",
+"Kami menawarkan desain custom dengan berbagai pilihan ukuran, warna, dan bentuk.~ "];
+var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 16).getTime()) / 35e6) % u.length);
+var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 41e6) % v.length);
+var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 38e6) % w.length);
+document.write(u[d]+v[e]+w[f]);
