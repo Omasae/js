@@ -39,6 +39,5 @@ var u = ["1. Dapatkan keunggulan besi beton yang dapat membantu memberikan ponda
 "19. Besi beton adalah bahan konstruksi yang penting untuk berbagai proyek. Kami menyediakan besi beton dengan kualitas unggul dan layanan yang profesional. Percayakan pada kami untuk memenuhi kebutuhan besi beton Anda dan memastikan keberhasilan proyek konstruksi Anda."];
 document.addEventListener("DOMContentLoaded", () => {
   var e = Math.floor((Math.abs(new Date() - new Date(2023, 6, 10)) / 2e5) % u.length);
-  var f = Math.floor((Math.abs(new Date() - new Date(2023, 6, 16)) / 3e5) % v.length);
   document.write(u[e]);
 });
