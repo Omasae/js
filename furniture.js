@@ -34,7 +34,7 @@ var w = ["Mereka akan membantu menyusun setiap sudut ruanganmu dengan efisien. G
 "Dengan bantuan mereka, setiap sudut ruanganmu dapat dioptimalkan dengan efisien. Apapun gaya yang kamu pilih, baik itu minimalis atau klasik, semuanya bisa kami wujudkan. Jadi, jangan ragu lagi! Ayo segera rancang furniture impianmu sekarang juga! ",
 "Dengan bantuan mereka, kamu dapat menyusun setiap sudut ruangan dengan lebih efisien. Tidak peduli gaya yang kamu inginkan, apakah minimalis atau klasik, semuanya dapat kami buat. Jadi, tunggu apalagi? Ayo rancang furniture impianmu sekarang juga! ",
 "Mereka siap membantu kamu untuk menyusun solusi terbaik. Dengan bantuan mereka, setiap sudut ruanganmu bisa dioptimalkan dengan efisien. Gaya minimalis atau yang lebih klasik, semuanya bisa kita ciptakan. Jadi, ayo mulai merancang furniture impianmu sekarang juga! "];
-var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 3e7) % u.length);
-var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 4e7) % v.length);
-var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 4e7) % w.length);
+var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 16).getTime()) / 32e3) % u.length);
+var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 42e3) % v.length);
+var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 34e3) % w.length);
 document.write(u[d]+v[e]+w[f]);
