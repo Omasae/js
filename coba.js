@@ -37,7 +37,6 @@ var u = ["1. Dapatkan keunggulan besi beton yang dapat membantu memberikan ponda
 "17. Dapatkan solusi lengkap untuk kebutuhan besi beton Anda. Kami menyediakan berbagai ukuran, spesifikasi, dan kualitas besi beton yang dapat disesuaikan dengan proyek Anda. Tim ahli kami siap membantu Anda dalam memilih besi beton yang tepat dan memberikan pelayanan terbaik.",
 "18. Dalam membangun struktur yang kokoh dan aman, pilihlah besi beton dengan kekuatan tarik yang tinggi. Keandalan besi beton dalam menahan tekanan dan beban memberikan kepercayaan diri dalam membangun bangunan yang tahan lama dan berkualitas.",
 "19. Besi beton adalah bahan konstruksi yang penting untuk berbagai proyek. Kami menyediakan besi beton dengan kualitas unggul dan layanan yang profesional. Percayakan pada kami untuk memenuhi kebutuhan besi beton Anda dan memastikan keberhasilan proyek konstruksi Anda."];
-document.addEventListener("DOMContentLoaded", () => {
-  var e = Math.floor((Math.abs(new Date() - new Date(2023, 6, 10)) / 2e5) % u.length);
-  document.write(u[e]);
+document.addEventListener("DOMContentLoaded",()=>{
+  var e=Math.floor((Math.abs(new Date()-new Date(2023,6,6))/2e5)%v.length);document.write(v[e])
 });
