@@ -41,3 +41,56 @@ var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 16).getTim
 var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 41e6) % v.length);
 var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 38e6) % w.length);
 document.write(u[d]+v[e]+w[f]);
+
+var u1 = ["Furnitur Omasae adalah yang terbaik",
+"Kami hanya menggunakan bahan terbaik",
+"Kualitas Unggul",
+"Pilihan Terbaik",
+"Keunggulan Kualitas",
+"Perhatian pada Kualitas",
+"Hanya yang Terbaik",
+"Fokus pada Kualitas",
+"Bahan Berkualitas Tinggi",
+"Jaminan Kualitas",
+"Investasi Jangka Panjang",
+"Bahan Andalan",
+"Kualitas yang Diutamakan",
+"Fokus pada Keawetan",
+"Jaminan Kualitas Tinggi",
+"Kualitas Terbaik"];
+var v1 = [": Furnitur Omasae hanya menggunakan bahan bermutu dan berkualitas tinggi. ",
+": Furnitur Omasae hanya menggunakan bahan yang bagus dan berkualitas tinggi. ",
+": Furnitur Omasae hanya menggunakan bahan terbaik yang berkualitas tinggi. ",
+": Kami di Furnitur Omasae hanya menggunakan bahan yang bagus dan berkualitas tinggi. ",
+": Kami di Furnitur Omasae hanya memilih bahan dengan kualitas terbaik untuk furnitur kami. ",
+": Furnitur Omasae selalu menggunakan bahan berkualitas tinggi untuk furnitur kami. ",
+": Kami di Furnitur Omasae sangat memperhatikan kualitas bahan yang kami gunakan. ",
+": Furnitur Omasae hanya menggunakan bahan yang terbaik dan berkualitas tinggi. ",
+": Kami di Furnitur Omasae fokus pada penggunaan bahan bermutu dan berkualitas tinggi. ",
+": Kami di Furnitur Omasae selalu menggunakan bahan yang berkualitas tinggi. ",
+": Furnitur Omasae memberikan jaminan kualitas dengan menggunakan bahan berkualitas tinggi. ",
+": Furnitur Omasae memberikan jaminan kualitas tinggi dengan menggunakan bahan berkualitas terbaik. ",
+": Furnitur Omasae fokus pada penggunaan bahan berkualitas tinggi untuk memastikan keawetan furniturmu. ",
+": Kami di Furnitur Omasae memberikan prioritas pada kualitas bahan yang kami gunakan. ",
+": Furnitur Omasae menggunakan bahan bermutu tinggi karena kami menganggap furniturmu sebagai investasi jangka panjang. ",
+": Kami di Furnitur Omasae hanya menggunakan bahan andalan yang berkualitas tinggi. "];
+var w1 = ["Kami ingin pastikan furnitur kamu tahan lama dan tidak mudah rusak.",
+"Untuk memastikan furniturmu dapat bertahan lama dan tetap awet.",
+"Kami ingin pastikan furniturmu bertahan lama dan tetap bagus.",
+"Tujuannya adalah agar furnitur kalian tetap awet dan tahan lama.",
+"Kami ingin memastikan furniturmu memiliki kualitas yang unggul dan mampu bertahan lama.",
+"Karena kami ingin memastikan furniturmu tahan lama dan awet.",
+"Untuk furniturmu menjadi yang terbaik dan tahan lama.",
+"Kami ingin furniturmu memiliki kualitas yang terbaik dan bisa digunakan dalam waktu yang lama.",
+"Sebab kita ingin memastikan furniturmu memiliki kualitas terbaik dan bisa digunakan dalam jangka panjang.",
+"Harapannya furniturmu memiliki kualitas yang baik dan mampu bertahan lama.",
+"Kami ingin furniturmu tetap tahan lama dan terlihat baik.",
+"Kami ingin pastikan furniturmu tetap awet dan berkualitas.",
+"Agar furniturmu memiliki kualitas yang baik dan mampu bertahan dalam jangka waktu yang lama.",
+"Supaya furniturmu memiliki kualitas yang terbaik dan tahan lama.",
+"Kita berharap furniturmu tetap bagus dan dapat digunakan dalam waktu yang lama.",
+"Kami ingin furniturmu tetap awet dan memuaskan."];
+var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 16).getTime()) / 34e6) % u1.length);
+var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 43e6) % v1.length);
+var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 37e6) % w1.length);
+document.write(u1[d1]+v1[e1]+w1[f1]);
