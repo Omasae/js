@@ -40,7 +40,7 @@ var w = ["Kamu bisa pilih sendiri ukuran, warna, dan bentuknya sesuai yang kamu 
 var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 16).getTime()) / 35e6) % u.length);
 var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 41e6) % v.length);
 var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 38e6) % w.length);
-document.write(u[d]+v[e]+w[f]);
+document.write(u[d]+v[e]+w[f]+'<br/>');
 
 var u1 = ["Furnitur Omasae adalah yang terbaik",
 "Kami hanya menggunakan bahan terbaik",
@@ -155,4 +155,60 @@ var w2 = [" Jadi, kamu tidak perlu khawatir tentang budget yang kamu miliki.`",
 var d2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 26).getTime()) / 55e6) % u2.length);
 var e2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 23).getTime()) / 83e5) % v2.length);
 var f2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 2).getTime()) / 67e6) % w2.length);
-document.write(u2[d2]+v2[e2]+w1[f2]);
+document.write(u2[d2]+v2[e2]+w2[f2]+'<br/>');
+
+var u3 = [" Cepat dan Berkualitas:",
+" Pesanan Kilat:",
+" Pengerjaan Efisien:",
+" Hasil Cepat dan Berkualitas:",
+" Kerja Cepat, Hasil Memuaskan:",
+" Pengerjaan Tepat Waktu:",
+" Efisiensi Tanpa Kompromi:",
+" Cepat dan Terpercaya:",
+" Pelayanan Kilat:",
+" Hasil Memuaskan, Pengerjaan Cepat:",
+" Kecepatan dan Kualitas:",
+" Hasil Cepat, Kualitas Terjaga:",
+" Pengerjaan Efisien tanpa Kompromi:",
+" Hasil Kilat, Kualitas Terbaik:",
+" Pengerjaan Tepat Waktu, Kualitas Terjamin:",
+" Kerja Cepat, Kualitas Tak Tergoyahkan:",
+" Pengerjaan Kilat tanpa Mengorbankan Kualitas:"];
+var v3 = [" *Kami mengutamakan kecepatan dalam pengerjaan tanpa mengorbankan kepuasan pelanggan.",
+" *Akan selalu mengutamakan pengerjaan pesananmu dengan tepat waktu tanpa mengabaikan kualitasnya.",
+" *Kami menawarkan pengerjaan yang efisien tanpa mengorbankan kualitas.",
+" *Selalu berkomitmen untuk menyelesaikan pesananmu dengan cepat dan terpercaya.",
+" *Kami menjamin hasil yang cepat namun tetap berkualitas.",
+" *Senantiasa fokus pada pengerjaan yang efisien tanpa mengorbankan kualitasnya.",
+" *Kami siap menangani pesanan dengan cepat tanpa mengabaikan kualitasnya.",
+" *Terus berusaha menyelesaikan pesanan dengan cepat tanpa mengesampingkan kualitasnya.",
+" *Kami siap memberikan pelayanan dengan cepat tanpa mengesampingkan kualitasnya.",
+" *Tetap memberikan kerja cepat tanpa mengorbankan kualitas.",
+" *Kami menjamin hasil yang kilat namun tetap dengan kualitas terbaik.",
+" *Omasae berkomitmen untuk menyelesaikan pesananmu dengan tepat waktu tanpa mengabaikan kualitasnya.",
+" *Omasae memberikan pengerjaan yang efisien tanpa mengorbankan kualitasnya.",
+" *Omasae menawarkan hasil yang cepat namun tetap menjaga kualitasnya.",
+" *Omasae mengutamakan kecepatan pengerjaan tanpa mengesampingkan kualitasnya.",
+" *Kami berusaha untuk menyelesaikan pesananmu dengan cepat tanpa mengabaikan kualitasnya.",
+" *Kami menjamin hasil yang memuaskan dengan pengerjaan yang cepat."];
+var w3 = [" Pesananmu akan selesai tepat waktu.*",
+" Kami akan menyelesaikan pesananmu dengan tepat waktu.*",
+" Kami berkomitmen untuk menyelesaikan pesananmu dengan tepat waktu.*",
+" Kami bertekad untuk memberikan hasil yang tepat waktu.*",
+" Kami akan menyelesaikan pesananmu dengan cepat dan memuaskan.*",
+" Kepercayaanmu adalah prioritas kami.*",
+" Pesananmu akan selesai dengan tepat waktu.*",
+" Kualitas tetap menjadi prioritas utama kami.*",
+" Pesananmu akan beres dalam waktu singkat.*",
+" Barangmu akan selesai dengan tepat waktu.*",
+" Pesananmu akan usai tepat waktu.*",
+" Pesanan kalian akan selesai dengan tepat waktu.*",
+" Pesanan kamu akan finish tepat waktu.*",
+" Pesananmu akan selesai dengan tepat waktu.*",
+" Orderanmu akan jadi dengan kualitas yang terjamin.*",
+" Pesananmu akan selesai dengan tepat waktu.*",
+" Orderan kamu akan selesai tepat waktu dengan kualitas yang tak tergoyahkan.*"];
+var d3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 26).getTime()) / 65e6) % u3.length);
+var e3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 23).getTime()) / 97e5) % v3.length);
+var f3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 12).getTime()) / 27e6) % w3.length);
+document.write(u3[d3]+v3[e3]+w3[f3]+'<br/>');
