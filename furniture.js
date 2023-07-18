@@ -376,5 +376,6 @@ var w1 = [" di halaman lain di web ini",
 " bisa dishare ke teman-teman"];
 var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 16).getTime()) / 38e6) % u1.length);
 var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 29e6) % v1.length);
+  var e2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 37e6) % v1.length);
 var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 39e6) % w1.length);
-document.write(u1[d1]+v1[e1]+w1[f1]+'<br/><br/>');
+document.write(u1[d1]+v1[e1]+w1[f1]+' &'+v1[e2]+'.<br/><br/>');
