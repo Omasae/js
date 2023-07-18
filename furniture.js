@@ -377,4 +377,4 @@ var w1 = [" di halaman lain di web ini",
 var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 16).getTime()) / 34e6) % u1.length);
 var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 43e6) % v1.length);
 var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 37e6) % w1.length);
-document.write(u1[d1]+v1[e1]+w1[f1]+'<br/><br/>');
+document.write(u1[d1]+v1[e1]+w1[f1]);
