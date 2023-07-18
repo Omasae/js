@@ -90,7 +90,69 @@ var w1 = ["Kami ingin pastikan furnitur kamu tahan lama dan tidak mudah rusak.",
 "Supaya furniturmu memiliki kualitas yang terbaik dan tahan lama.",
 "Kita berharap furniturmu tetap bagus dan dapat digunakan dalam waktu yang lama.",
 "Kami ingin furniturmu tetap awet dan memuaskan."];
-var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 16).getTime()) / 34e6) % u1.length);
-var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 43e6) % v1.length);
-var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 37e6) % w1.length);
+var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 16).getTime()) / 34e6) % u1.length);
+var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 6).getTime()) / 43e6) % v1.length);
+var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 9).getTime()) / 37e6) % w1.length);
 document.write(u1[d1]+v1[e1]+w1[f1]);
+
+var u2 = ["Hemat dan Berkualitas:",
+" Terjangkau tapi Berkualitas:",
+" Furnitur Minimalis yang Terjangkau:",
+" Furnitur Berkualitas dengan Harga Ramah:",
+" Berkualitas, Harga Terjangkau:",
+" Furnitur Murah tapi Berkualitas:",
+" Kualitas Tanpa Menguras Budget:",
+" Furnitur yang Terjangkau dengan Kualitas Terbaik:",
+" Furnitur Impian Tanpa Biaya yang Membengkak:",
+" Furnitur Minimalis dengan Harga Terjangkau:",
+" Furnitur Murah Meriah dengan Kualitas Unggul:",
+" Hemat dan Terpercaya:",
+" Furnitur Berkualitas dengan Harga Bersahabat:",
+" Pilihan Furnitur Terjangkau:",
+" Kualitas dan Harga yang Pas:",
+" Furnitur Minimalis Ramah Budget:",
+" Furnitur Terjangkau yang Tahan Lama:",
+" Furnitur dengan Harga Terjangkau dan Kualitas Baik:",
+" Furnitur yang Ekonomis namun Berkualitas:"];
+var v2 = [" `Kami menyediakan furnitur minimalis yang berkualitas tinggi dengan harga yang terjangkau.",
+" `Furnitur minimalis berkualitas tinggi dengan harga yang terjangkau.",
+" `Kami menawarkan furnitur minimalis berkualitas tinggi dengan harga yang terjangkau.",
+" `Kami menawarkan furnitur berkualitas tinggi dengan harga yang ramah di kantongmu.",
+" `Furnitur kami dibuat dengan kualitas tinggi namun tetap terjangkau.",
+" `Tawaran furnitur kami sangat terjangkau. namun tetap memiliki kualitas yang baik.",
+" `Kami menyediakan furnitur berkualitas tinggi yang tidak akan menguras budgetmu.",
+" `Kami menawarkan furnitur dengan harga yang terjangkau namun tetap memiliki kualitas terbaik.",
+" `Omasae menyediakan furnitur impianmu dengan harga yang tidak akan membuat biaya kamu membengkak.",
+" `Furnitur minimalis kami memiliki harga yang terjangkau. tetapi tetap memiliki kualitas yang baik.",
+" `Furnitur kami sangat terjangkau namun tetap memiliki kualitas yang unggul.",
+" `Omasae menawarkan furnitur minimalis yang hemat dengan kualitas yang terpercaya.",
+" `Omasae menawarkan furnitur berkualitas tinggi dengan harga yang bersahabat.",
+" `Omasae menawarkan furnitur dengan harga yang ekonomis namun tetap berkualitas.",
+" `Omasae menyediakan furnitur dengan harga yang terjangkau namun tetap memiliki kualitas yang baik.",
+" `Furnitur terjangkau yang Omasae tawarkan memiliki daya tahan yang baik.",
+" `Omasae menawarkan furnitur dengan kualitas yang baik dan harga yang pas di kantongmu.",
+" `Furnitur minimalis kami hadir dengan harga yang ramah di budgetmu.",
+" `Kami menawarkan beragam pilihan furnitur yang terjangkau."];
+var w2 = [" Jadi, kamu tidak perlu khawatir tentang budget yang kamu miliki.`",
+" Jadi kamu bisa mendapatkan furnitur impianmu tanpa merogoh kocek terlalu dalam.`",
+" Sehingga kamu bisa memiliki ruangan yang stylish tanpa membebani budgetmu.`",
+" Dengan begitu, kamu bisa memiliki furnitur yang tahan lama tanpa merusak anggaranmu.`",
+" Kamu bisa mendapatkan furnitur yang awet tanpa harus menguras dompetmu.`",
+" Jadi, kamu bisa mendapatkan furnitur yang bagus tanpa harus menghabiskan banyak uang.`",
+" Jadi, kamu bisa memiliki furnitur yang tahan lama tanpa perlu khawatir tentang biaya.`",
+" Kamu bisa mendapatkan furnitur yang berkualitas tanpa harus membayar mahal.`",
+" Kamu bisa mendapatkan furnitur berkualitas tinggi dengan harga yang masuk akal.`",
+" Jadi, kalian bisa memiliki ruangan yang stylish tanpa perlu mengeluarkan banyak uang.`",
+" Dengan begitu, kalian bisa mendapatkan furnitur yang berkualitas tanpa harus menghabiskan banyak uang.`",
+" Jadi, kalian bisa memiliki furnitur yang tahan lama tanpa perlu khawatir tentang budget.`",
+" Dengan begitu, kalian bisa mendapatkan furnitur yang baik tanpa harus menguras kantongmu.`",
+" Kalian bisa mendapatkan furnitur berkualitas dengan harga yang masuk akal.`",
+" Dengan begitu, kalian bisa memiliki furnitur impian tanpa perlu khawatir tentang biaya.`",
+" Dapatkan furnitur berkualitas tinggi tanpa harus membayar mahal.`",
+" kalian bisa memiliki furnitur yang tahan lama tanpa perlu mengeluarkan banyak uang.`",
+" Jadi, kamu bisa mendapatkan furnitur yang bagus tanpa perlu merogoh kocek terlalu dalam.`",
+" Dengan begitu, kamu bisa mendapatkan furnitur yang baik untuk rumahmu tanpa harus membayar mahal."];
+var d2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 26).getTime()) / 55e6) % u2.length);
+var e2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 23).getTime()) / 83e5) % v2.length);
+var f2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 2).getTime()) / 67e6) % w2.length);
+document.write(u2[d2]+v2[e2]+w1[f2]);
