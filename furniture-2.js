@@ -1,4 +1,4 @@
-var u = [" Selain itu, ada juga rekan lain yang sedang mencari informasi mengenai",
+var uu = [" Selain itu, ada juga rekan lain yang sedang mencari informasi mengenai",
 " Di samping itu, ada juga orang lain yang tertarik untuk mengetahui lebih lanjut tentang",
 " Ada juga kenalan yang sedang mencari informasi terkait",
 " Tak hanya itu, ada juga teman lain yang sedang mencari tahu tentang",
@@ -38,7 +38,7 @@ var u = [" Selain itu, ada juga rekan lain yang sedang mencari informasi mengena
 " Ada teman lain yang sedang mencari inspirasi untuk",
 " Ada kenalan yang sedang mencari opsi terkait",
 " Ada yang mencari ide baru untuk"];
-var v = [" Pemilihan furnitur yang tepat",
+var vv = [" Pemilihan furnitur yang tepat",
 " Desain interior yang menawan",
 " Furnitur modern dan fungsional",
 " Sentuhan elegan dalam desain",
@@ -115,7 +115,7 @@ var v = [" Pemilihan furnitur yang tepat",
 " Penempatan furnitur yang strategis untuk memaksimalkan ruang",
 " Desain interior dengan sentuhan bohemian",
 " Furnitur dengan desain yang mengutamakan kepraktisan dan fungsionalitas"];
-var w = [" juga",
+var ww = [" juga",
 " dan",
 " -",
 " juga model",
@@ -133,7 +133,7 @@ var w = [" juga",
 " dan cara bikin",
 " juga tips memilih"];
 
-var u1 = [" Meja makan",
+var uu1 = [" Meja makan",
 " Meja kerja",
 " Meja belajar",
 " Meja kopi",
@@ -233,7 +233,7 @@ var u1 = [" Meja makan",
 " Meja kerja lipat",
 " Meja kerja elektrik",
 " Meja kerja anak"];
-var v1 = [" cantik",
+var vv1 = [" cantik",
 " custom bagus",
 " mudah",
 " sederhana",
@@ -296,7 +296,7 @@ var v1 = [" cantik",
 " custom neo-klasik",
 " glamor",
 " custom transitional"];
-var w1 = [" dapat ditemukan di sini",
+var ww1 = [" dapat ditemukan di sini",
 " tersedia di sini",
 " tersedia untuk kalian di halaman lain di website ini",
 " tersedia secara lengkap di halaman lain di website ini",
@@ -317,7 +317,7 @@ var w1 = [" dapat ditemukan di sini",
 " bisa didapatkan secara praktis di sini",
 " bisa kalian temukan dengan melihat di sini"];
 
-var u2 = [" yang dapat kamu simak",
+var uu2 = [" yang dapat kamu simak",
 " yang bisa kamu sebarkan",
 " untuk bisa kamu berbagi",
 " yang bisa kamu sampaikan",
@@ -340,15 +340,15 @@ var u2 = [" yang dapat kamu simak",
 " sebagai sumber ide dan gagasan",
 " sebagai inspirasi"];
 
-var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 17).getTime()) / 77e6) % u.length);
-var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 7).getTime()) / 28e6) % v.length);
-var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 10).getTime()) / 87e6) % (w.length - 1));
-document.write(u[d]+v[e]+w[f]);
+var dd = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 17).getTime()) / 77e6) % uu.length);
+var ee = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 7).getTime()) / 28e6) % vv.length);
+var ff = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 10).getTime()) / 87e6) % (ww.length - 1));
+document.write(uu[dd]+vv[ee]+ww[ff]);
 
-var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 12).getTime()) / 37e6) % (u1.length - 1));
-var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 3).getTime()) / 47e6) % (v1.length - 1));
-var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 8).getTime()) / 93e6) % w1.length);
-document.write(u1[d1]+v1[e1]+w[f+1]+u1[d1+1]+v1[e1+1]+w1[f1]);
+var dd1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 12).getTime()) / 37e6) % (uu1.length - 1));
+var ee1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 3).getTime()) / 47e6) % (vv1.length - 1));
+var ff1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 8).getTime()) / 93e6) % ww1.length);
+document.write(uu1[dd1]+vv1[ee1]+ww[ff+1]+uu1[dd1+1]+vv1[ee1+1]+ww1[ff1]);
  
-var d2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 23).getTime()) / 13e7) % u2.length);
-document.write(u2[d2]);
+var dd2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 23).getTime()) / 13e7) % uu2.length);
+document.write(uu2[dd2]);
