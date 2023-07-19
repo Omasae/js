@@ -46,7 +46,7 @@ var u1 = [" Ada juga yang mencari info",
 " Inilah","Untuk info tentang",
 " Ini ada info",
 " Ada juga teman yang mencari mengenai",
-" Tuga tentang"," Untuk yang sedang mencari informasi",
+" Juga tentang"," Untuk yang sedang mencari informasi",
 " Mengenai"," Tentang",
 " Dalam hal"];
 var v1 = [" toko <b>furniture</b> terbaik",
