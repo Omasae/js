@@ -21,7 +21,7 @@ var v = [" Ukuran standar yang banyak digunakan ini praktis dalam proses produks
 " Ukurannya standar dan mudah digunakan dalam produksi dan pemasangan di lapangan._"
 " Ukuran standarnya membuatnya efisien dalam pembangunan dan penggunaan._"
 " Ukurannya standar dan mudah diaplikasikan dalam proyek konstruksi._"
-" Dengan standar, sehingga cocok untuk berbagai keperluan konstruksi._"
+" Dengan ukuran standar, sehingga cocok untuk berbagai keperluan konstruksi._"
 " Ukurannya standar dan mudah digunakan dalam proses produksi maupun pemasangan di lapangan._"
 " Ukurannya standar, sehingga memudahkan dalam produksi dan penggunaan._"];
 var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 3, 16).getTime()) / 38e6) % u.length);
