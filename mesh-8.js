@@ -1,30 +1,30 @@
-var u = [" _Produk wiremesh yang kami tawarkan adalah pilihan umum yang digunakan oleh para aplikator bangunan dan tersedia di pasaran."
-" _Kami menawarkan produk wiremesh yang sering dipakai oleh para pembangun.&nbsp;"
-" _Produk wiremesh yang kami jual adalah pilihan umum di kalangan para pembangun.&nbsp;"
-" _Wiremesh yang kami jual adalah pilihan favorit para pelaksana pembangun.&nbsp;"
-" _Kami menyediakan wiremesh yang sering digunakan oleh para pelaksana pembangunan.&nbsp;"
-" _Produk wiremesh kami adalah yang paling banyak digunakan oleh para pembangun."
-" _Wiremesh yang kami tawarkan sering dipakai oleh para pembangun."
-" _Kami memiliki produk wiremesh yang banyak digunakan oleh para pembangun."
-" _Wiremesh yang kami jual adalah pilihan umum para pembangun."
-" _Kami menyediakan produk wiremesh yang sering dipakai oleh para pembangun."
-" _Produk wiremesh yang kami tawarkan adalah favorit para pengembang."
-" _Kami menawarkan wiremesh yang sering digunakan oleh para pengembang."
+var u = [" _Produk wiremesh yang kami tawarkan adalah pilihan umum yang digunakan oleh para aplikator bangunan dan tersedia di pasaran.",
+" _Kami menawarkan produk wiremesh yang sering dipakai oleh para pembangun.",
+" _Produk wiremesh yang kami jual adalah pilihan umum di kalangan para pembangun.",
+" _Wiremesh yang kami jual adalah pilihan favorit para pelaksana pembangun.",
+" _Kami menyediakan wiremesh yang sering digunakan oleh para pelaksana pembangunan.",
+" _Produk wiremesh kami adalah yang paling banyak digunakan oleh para pembangun.",
+" _Wiremesh yang kami tawarkan sering dipakai oleh para pembangun.",
+" _Kami memiliki produk wiremesh yang banyak digunakan oleh para pembangun.",
+" _Wiremesh yang kami jual adalah pilihan umum para pembangun.",
+" _Kami menyediakan produk wiremesh yang sering dipakai oleh para pembangun.",
+" _Produk wiremesh yang kami tawarkan adalah favorit para pengembang.",
+" _Kami menawarkan wiremesh yang sering digunakan oleh para pengembang.",
 " _Wiremesh yang kami jual adalah pilihan umum di kalangan para aplikator bangunan."];
-var v = [" Ukuran standar yang banyak digunakan ini praktis dalam proses produksi wiremesh, pengiriman, serta pengerjaan di lapangan menggunakan wiremesh sebagai bahan utama._"
-" Ukuran standarnya membuat produksi dan pemasangan lebih mudah._"
-" Ukurannya standar, membuatnya praktis digunakan dalam berbagai tahap pembangunan._"
-" Ukurannya standar dan mudah digunakan dalam proses produksi serta pemasangan._"
-" Disediakan ukurannya standar, sehingga memudahkan dalam proses pembangunan dan penggunaannya._"
-" Tersedia ukurannya standar, sehingga praktis dalam pembangunan dan penggunaannya._"
-" Menggunakan ukurannya standar, membuatnya mudah digunakan dalam berbagai proyek konstruksi._"
-" Ukurannya standar dan mudah digunakan dalam produksi dan pemasangan di lapangan._"
-" Ukuran standarnya membuatnya efisien dalam pembangunan dan penggunaan._"
-" Ukurannya standar dan mudah diaplikasikan dalam proyek konstruksi._"
-" Dengan ukuran standar, sehingga cocok untuk berbagai keperluan konstruksi._"
-" Ukurannya standar dan mudah digunakan dalam proses produksi maupun pemasangan di lapangan._"
+var v = [" Ukuran standar yang banyak digunakan ini praktis dalam proses produksi wiremesh, pengiriman, serta pengerjaan di lapangan menggunakan wiremesh sebagai bahan utama._",
+" Ukuran standarnya membuat produksi dan pemasangan lebih mudah._",
+" Ukurannya standar, membuatnya praktis digunakan dalam berbagai tahap pembangunan._",
+" Ukurannya standar dan mudah digunakan dalam proses produksi serta pemasangan._",
+" Disediakan ukurannya standar, sehingga memudahkan dalam proses pembangunan dan penggunaannya._",
+" Tersedia ukurannya standar, sehingga praktis dalam pembangunan dan penggunaannya._",
+" Menggunakan ukurannya standar, membuatnya mudah digunakan dalam berbagai proyek konstruksi._",
+" Ukurannya standar dan mudah digunakan dalam produksi dan pemasangan di lapangan._",
+" Ukuran standarnya membuatnya efisien dalam pembangunan dan penggunaan._",
+" Ukurannya standar dan mudah diaplikasikan dalam proyek konstruksi._",
+" Dengan ukuran standar, sehingga cocok untuk berbagai keperluan konstruksi._",
+" Ukurannya standar dan mudah digunakan dalam proses produksi maupun pemasangan di lapangan._",
 " Ukurannya standar, sehingga memudahkan dalam produksi dan penggunaan._"];
-var w = ["Temukan kepraktisan dan keandalan wiremesh standar Jayasteel untuk semua kebutuhan konstruksi Anda. Produk yang sering digunakan oleh para profesional bangunan. Segera miliki wiremesh standar Jayasteel untuk proyek bangunan yang lebih efisien dan berkualitas!",
+var w = [" Temukan kepraktisan dan keandalan wiremesh standar Jayasteel untuk semua kebutuhan konstruksi Anda. Produk yang sering digunakan oleh para profesional bangunan. Segera miliki wiremesh standar Jayasteel untuk proyek bangunan yang lebih efisien dan berkualitas!",
 " Andalkan wiremesh standar Jayasteel untuk keperluan konstruksi terbaik Anda. Solusi yang sering dipilih oleh para ahli bangunan.",
 " Ingin proyek konstruksi yang efisien? Gunakan wiremesh standar Jayasteel, pilihan utama para profesional.",
 " Jangan ragu, pilih wiremesh standar Jayasteel untuk hasil bangunan yang tahan lama dan terpercaya.",
