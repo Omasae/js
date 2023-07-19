@@ -121,6 +121,13 @@ var v1 = [" toko <b>furniture</b> terbaik",
 " ruang tamu mewah",
 " ruang tamu minimalis 3x3",
 " ruang tamu elegan",
+" <div>furniture custom surabaya",
+" lemari custom surabaya",
+" furniture surabaya",
+" bikin mebel di surabaya",
+" custom furniture terdekat",
+" tukang lemari panggilan surabaya",
+" michael design surabaya"
 " ruang tamu minimalis",
 " ruang tamu modern",
 " ruang tamu sederhana",
@@ -323,9 +330,9 @@ var v1 = [" toko <b>furniture</b> terbaik",
 " <b>furniture</b> kamar tidur dwg",
 " download <b>furniture</b> autocad lengkap",
 " download <b>furniture</b> autocad free",
-" download <b>furniture</b> autocad 2010",
+" download <b>furniture</b> autocad 2023",
 " <b>furniture</b> autocad dwg",
-" download <b>furniture</b> autocad 2007",
+" download <b>furniture</b> autocad 2023",
 " lemari pakaian dwg",
 " <b>furniture</b> dwg asdar",
 " download block autocad",
@@ -376,6 +383,6 @@ var w1 = [" di halaman lain di web ini",
 " bisa dishare ke teman-teman"];
 var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 16).getTime()) / 38e6) % u1.length);
 var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 29e6) % v1.length);
-  var e2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 37e6) % v1.length);
+  var e2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 37e6) % (v1.length - 1));
 var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 39e6) % w1.length);
 document.write(u1[d1]+v1[e1]+w1[f1]+' &'+v1[e2]+'.<br/>');
