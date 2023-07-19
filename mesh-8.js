@@ -24,6 +24,23 @@ var v = [" Ukuran standar yang banyak digunakan ini praktis dalam proses produks
 " Dengan ukuran standar, sehingga cocok untuk berbagai keperluan konstruksi._"
 " Ukurannya standar dan mudah digunakan dalam proses produksi maupun pemasangan di lapangan._"
 " Ukurannya standar, sehingga memudahkan dalam produksi dan penggunaan._"];
+var w = ["Temukan kepraktisan dan keandalan wiremesh standar Jayasteel untuk semua kebutuhan konstruksi Anda. Produk yang sering digunakan oleh para profesional bangunan. Segera miliki wiremesh standar Jayasteel untuk proyek bangunan yang lebih efisien dan berkualitas!",
+" Andalkan wiremesh standar Jayasteel untuk keperluan konstruksi terbaik Anda. Solusi yang sering dipilih oleh para ahli bangunan.",
+" Ingin proyek konstruksi yang efisien? Gunakan wiremesh standar Jayasteel, pilihan utama para profesional.",
+" Jangan ragu, pilih wiremesh standar Jayasteel untuk hasil bangunan yang tahan lama dan terpercaya.",
+" Wiremesh standar Jayasteel telah terbukti dalam berbagai proyek konstruksi. Percayakan keandalannya pada pekerjaan Anda.",
+" Temukan kepraktisan wiremesh standar Jayasteel untuk mempercepat proyek konstruksi Anda.",
+" Kualitas terbaik dan harga yang terjangkau, hanya dalam wiremesh standar Jayasteel.",
+" Solusi terbaik untuk pengerjaan lapangan, wiremesh standar Jayasteel siap mendukung kesuksesan proyek Anda.",
+" Percayakan proyek Anda pada wiremesh standar Jayasteel yang telah terbukti dalam industri konstruksi.",
+" Dapatkan hasil yang maksimal dengan menggunakan wiremesh standar Jayasteel sebagai fondasi proyek Anda.",
+" Keandalan dan kepraktisan wiremesh standar Jayasteel adalah pilihan tepat untuk semua proyek bangunan.",
+" Pilih wiremesh standar Jayasteel, dan bangun proyek konstruksi dengan efisiensi dan kualitas tinggi.",
+" Tingkatkan efisiensi proyek Anda dengan menggunakan wiremesh standar yang dapat diandalkan.",
+" Wiremesh standar Jayasteel, solusi praktis untuk berbagai jenis pembangunan.",
+" Kualitas tinggi dan kemudahan penggunaan, hanya dalam wiremesh standar Jayasteel.",
+" Bangun masa depan konstruksi Anda dengan wiremesh standar yang unggul dari Jayasteel."];
 var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 3, 16).getTime()) / 38e6) % u.length);
 var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 3, 6).getTime()) / 48e6) % v.length);
-document.write(u[d]+v[e]);
+var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 29e6) % w.length);
+document.write(u[d]+v[e]+w[f]);
