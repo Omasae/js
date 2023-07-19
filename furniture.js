@@ -127,7 +127,7 @@ var v1 = [" toko <b>furniture</b> terbaik",
 " bikin mebel di surabaya",
 " custom furniture terdekat",
 " tukang lemari panggilan surabaya",
-" michael design surabaya"
+" michael design surabaya",
 " ruang tamu minimalis",
 " ruang tamu modern",
 " ruang tamu sederhana",
