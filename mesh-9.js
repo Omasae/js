@@ -24,7 +24,7 @@ var w = [" Dalam proses pengelasan otomatis menggunakan mesin wiremesh, kawat ya
 " Tahap pengelasan dilakukan secara otomatis menggunakan mesin wiremesh, memungkinkan kawat panjang 54 atau 5,4 meter diubah menjadi gulungan, dan pemotongan dilakukan setelah proses pengelasan selesai.*",
 " Pengelasan dilakukan secara otomatis dengan menggunakan mesin wiremesh, yang membuat kawat panjang 54 atau 5,4 meter dapat dibentuk menjadi gulungan, dan pemotongan dilakukan setelah proses pengelasan selesai.*",
 " Proses pengelasan dilakukan secara otomatis dengan menggunakan mesin wiremesh, yang memungkinkan kawat panjang 54 atau 5,4 meter diubah menjadi gulungan, dan pemotongan dilakukan setelah proses pengelasan selesai.*",
-" Proses pengelasan dilakukan secara otomatis menggunakan mesin wiremesh, yang memungkinkan kawat panjang 54 atau 5,4 meter."];
+" Proses pengelasan dilakukan secara otomatis menggunakan mesin wiremesh, yang memungkinkan kawat panjang 54 atau 5,4 meter diubah menjadi gulungan, dan pemotongan dilakukan setelah proses pengelasan selesai."."];
 var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 3, 16).getTime()) / 36e6) % u.length);
 var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 3, 6).getTime()) / 46e6) % v.length);
 var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 26e6) % w.length);
