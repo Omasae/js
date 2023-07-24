@@ -434,5 +434,5 @@ var a41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())
 var b41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/27e6)%(b4.length-1));
 var a51=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/77e6)%(a5.length-1));
 
-document.write(a1[aa]+b2[bb]+b3[b31]+a3[a31]+a4[a41]+(document.title)+b3[b31+1]+a2[a21]+b4[b41]+a5[a51]+a4[a41+1]);
+document.write(a1[aa]+b2[bb]+b3[b31]+a3[a31]+a4[a41]+'<b>'+(document.title)+b3[b31+1]+'</b>. '+a2[a21]+b4[b41]+a5[a51]+a4[a41+1]);
 
