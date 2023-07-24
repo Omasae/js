@@ -1,3 +1,45 @@
+var u9 = [" 💒 Kuade / Pelaminan Eksklusif:",
+" 💒 Kuade / Pelaminan Unik:",
+" 💒 Kuade / Pelaminan Istimewa:",
+" 💒 Kuade / Pelaminan Spesial:",
+" 💒 Kuade / Pelaminan Unik:",
+" 💒 Kuade / Pelaminan Khusus:"];
+
+var v9 = [" Jadikan momen berharga Anda lebih istimewa dengan kuade / pelaminan eksklusif dari Suwur.",
+" Buat momen istimewa Anda lebih berkesan dengan kuade / pelaminan unik dari Suwur.",
+" Buat momen bersejarah Anda menjadi lebih istimewa dengan kuade / pelaminan eksklusif dari Tenda Suwur.",
+" Hadirkan momen berharga Anda dengan pelaminan eksklusif dari Tenda Suwur.",
+" Buat momen istimewa Anda lebih berkesan dengan kuade / pelaminan unik dari Tenda Suwur.",
+" Jadikan momen bersejarah Anda lebih istimewa dengan kuade / pelaminan eksklusif dari Tenda Suwur.",
+" Tampilkan momen berharga Anda dengan kuade eksklusif dari kami.",
+" Buat momen istimewa Anda lebih berkesan dengan kuade / pelaminan unik dari Suwur.",
+" Hadirkan momen bersejarah Anda dengan kuade eksklusif dari Tenda Suwur.",
+" Jadikan momen berharga Anda lebih istimewa dengan pelaminan eksklusif dari Tenda Suwur.",
+" Buat momen istimewa Anda lebih berkesan dengan kuade / pelaminan unik dari Tenda Suwur.",
+" Tampilkan momen bersejarah Anda dengan kuade / pelaminan eksklusif dari Suwur.",
+" Jadikan momen berharga Anda lebih istimewa dengan kuade / pelaminan eksklusif dari Tenda Suwur.",
+" Buat momen istimewa Anda lebih berkesan dengan panggung pernikahan / pelaminan unik dari Tenda Suwur."];
+  
+var w9 = [" Desain unik yang mencerminkan keindahan dan kebahagiaan.",
+" Desain khusus yang akan mencerminkan kepribadian Anda.",
+" Desain mewah dan elegan untuk memikat perhatian.",
+" Desain unik dan indah akan memukau semua tamu.",
+" Desain eksklusif yang mencerminkan kepribadian Anda.",
+" Perancangan mewah dan elegan akan mengesankan semua tamu.",
+" Rancangan unik akan mencerminkan keindahan perayaan Anda.",
+" Desain khusus akan mencerminkan kepribadian Anda.",
+" Design mewah dan elegan akan memikat perhatian semua tamu.",
+" Desain unik dan indah akan menghadirkan kebahagiaan.",
+" Perencanaan eksklusif akan mencerminkan kepribadian Anda.",
+" Desain mewah dan elegan akan memukau perhatian semua tamu.",
+" Desain unik yang mencerminkan keindahan dan kebahagiaan perayaan Anda.",
+" Desain eksklusif yang akan mencerminkan kepribadian dan kebahagiaan Anda."];
+  
+var u91=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,2).getTime())/30e7)%u9.length);
+var v91=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,4).getTime())/70e6)%v9.length);
+var w91=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,7).getTime())/20e7)%w9.length);
+document.write('<b>'+u9[u91]+'</b>'+v9[v91]+w9[w91]+'<br>');
+
 var a1 = [" Ada juga yang mencari info",
 " Dapatkan juga informasi mengenai",
 " Ada juga tentang",
@@ -407,32 +449,102 @@ var b4 = [" paket wedding organizer di rumah",
 " menu prasmanan syukuran rumah",
 " harga 1 porsi makanan prasmanan"];
 
-var b5 = [" cantik",
-" bagus",
-" keren",
-" unik",
-" spesial",
-" istimewa",
-" terkini",
-" terbaru",
-" kekinian",
-" update",
-" up to date",
-" masa kini",
-" model baru",
-" model masa kini",
-" viral",
-" yang paling banyak diminati",
-" murah"];
-
 var aa=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/17e7)%a1.length);
 var a21=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/77e6)%a2.length);
 var bb=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/87e6)%b2.length);
-var b31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/77e6)%(b3.length-1));
-var a31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/77e6)%(a3.length-1));
+var b31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/71e6)%(b3.length-1));
+var a31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/67e6)%(a3.length-1));
 var a41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/97e6)%(a4.length-1));
 var b41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/27e6)%(b4.length-1));
-var a51=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/77e6)%(a5.length-1));
+var a51=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/12e7)%(a5.length-1));
+document.write(a1[aa]+b4[b41+1]+b3[b31]+a3[a31]+a4[a41]+'<b>'+(document.title)+b3[b31+1]+'</b>. '+a2[a21]+'<b>'+b4[b41]+'</b>'+a5[a51]+a4[a41+1]+b2[bb]+'.<br><br>');
 
-document.write(a1[aa]+b2[bb]+b3[b31]+a3[a31]+a4[a41]+'<b>'+(document.title)+b3[b31+1]+'</b>. '+a2[a21]+b4[b41]+a5[a51]+a4[a41+1]);
+var u5 = [" 💍 Wedding Organizer Handal:",
+" 💍 Wedding Organizer yang dapat diandalkan:",
+" 💍 Wedding Organizer Terpercaya:",
+" 💍 Wedding Organizer Terbaik:"];
 
+var u6 = [" Percayakan pernikahan Anda kepada tim handal dari Tenda Suwur.",
+" Tenda Suwur, pilihan tepat untuk mewujudkan pernikahan impian Anda.",
+" Raih pernikahan impian Anda dengan bantuan tim terampil dari Tenda Suwur.",
+" Percayakan pernikahan impian Anda kepada tim terampil kami."];
+
+var v6 = [" Kami berkomitmen untuk mewujudkan hari bahagia Anda dengan sempurna.",
+" Tim terampil kami akan mengatur setiap detail dengan sempurna.",
+" Kami siap membantu menyelenggarakan momen bersejarah Anda dengan penuh perhatian dan dedikasi.",
+" Tenda Suwur sebagai wedding organizer siap membantu mewujudkan hari bahagia Anda dengan sempurna."];
+  
+var w6 = [" 💍 Momen Bersejarah: Tenda Suwur sebagai wedding organizer istimewa, hadir untuk mengabadikan momen indah dalam pernikahan Anda. Percayakan segala persiapan pada tim handal kami.",
+" 💍 Rencanakan Pernikahan Impian Anda: Dengan bantuan Tenda Suwur sebagai wedding organizer terpercaya, rencanakan pernikahan impian Anda dengan penuh percaya diri.",
+" 💍 Komitmen kepada Kualitas: Tenda Suwur, wedding organizer yang terpercaya dan berkomitmen untuk memberikan kualitas terbaik dalam menyelenggarakan pernikahan Anda.",
+" 💍 Penuh Perhatian dan Dedikasi: Tim terampil Tenda Suwur siap memberikan pelayanan penuh perhatian dan dedikasi dalam setiap tahapan pernikahan Anda.",
+" 💍 Pesta Pernikahan Tak Terlupakan: Dengan dukungan dari Tenda Suwur sebagai wedding organizer handal, pastikan pesta pernikahan Anda menjadi momen tak terlupakan.",
+" 💍 Tim terampil dan Berpengalaman: Tenda Suwur memiliki tim wedding organizer yang khusus dan berpengalaman dalam mengatur pernikahan dengan sempurna.",
+" 💍 Jadikan Pernikahan Anda Berkesan: Percayakan pernikahan impian Anda pada Tenda Suwur, dan jadikan momen tersebut berkesan sepanjang masa.",
+" 💍 Semua yang Anda Impikan: Tenda Suwur sebagai wedding organizer terpercaya siap mewujudkan semua impian Anda untuk pernikahan yang sempurna.",
+" 💍 Detail yang Sempurna: Percayakan setiap detail pernikahan Anda kepada Tenda Suwur, agar acara tersebut berjalan dengan sempurna dan tanpa hambatan.",
+" 💍 Rencanakan Bersama Kami: Tenda Suwur hadir sebagai mitra terbaik dalam merencanakan pernikahan Anda dengan kreativitas dan kecermatan.",
+" 💍 Mewujudkan Harapan Anda: Tenda Suwur sebagai wedding organizer berpengalaman, berkomitmen untuk mewujudkan harapan Anda dalam pernikahan yang indah.",
+" 💍 Sukseskan Pernikahan Anda: Dengan dukungan dari Tenda Suwur sebagai wedding organizer handal, pastikan pernikahan Anda sukses dan berkesan.",
+" 💍 Menjadi Kenyataan: Percayakan impian pernikahan Anda pada Tenda Suwur, dan biarkan kami menjadikannya kenyataan yang indah.",
+" 💍 Pengalaman Tidak Terlupakan: Dengan bimbingan dari Tenda Suwur sebagai wedding organizer terpercaya, pastikan pengalaman pernikahan Anda tak terlupakan.",
+" 💍 Dalam Setiap Detail: Tenda Suwur siap memberikan perhatian dalam setiap detail pernikahan Anda, agar semuanya berjalan dengan lancar.",
+" 💍 Temukan Kreativitas Bersama Kami: Tenda Suwur, tempat Anda menemukan kreativitas dalam merencanakan pernikahan yang unik dan istimewa.",
+" 💍 Momen Emosional: Percayakan momen emosional pernikahan Anda pada Tenda Suwur, dan biarkan kami menyelenggarakannya dengan hati-hati dan kehangatan.",
+" 💍 Pesta Impian Anda: Dengan dukungan dari Tenda Suwur sebagai wedding organizer yang peduli, pastikan pesta impian Anda menjadi kenyataan.",
+" 💍 Selesaikan Dengan Lebih Mudah: Tenda Suwur hadir untuk membantu Anda menyelesaikan persiapan pernikahan dengan lebih mudah dan efisien.",
+" 💍 Penuh Kreativitas dan Inovasi: Tenda Suwur siap memberikan sentuhan kreativitas dan inovasi dalam merencanakan pernikahan Anda.",
+" 💍 Momen Berharga: Percayakan momen berharga pernikahan Anda pada Tenda Suwur, dan biarkan kami menciptakan kenangan tak terlupakan.",
+" 💍 Pengaturan yang Sempurna: Dengan bantuan Tenda Suwur sebagai wedding organizer handal, pastikan setiap detail pernikahan Anda diatur dengan sempurna.",
+" 💍 Tim Terbaik untuk Anda: Tenda Suwur memiliki tim wedding organizer terbaik yang siap membantu mewujudkan pernikahan Anda sesuai dengan impian.",
+" 💍 Pelaksanaan yang penuh perhatian: Dengan dukungan dari Tenda Suwur sebagai wedding organizer terpercaya, pastikan pelaksanaan pernikahan Anda berjalan dengan menyenangkan.",
+" 💍 Detail Terjaga dengan Baik: Percayakan setiap detail pernikahan Anda pada Tenda Suwur, dan biarkan kami menjaganya dengan baik agar acara berjalan lancar.",
+" 💍 Kenyamanan Anda Prioritas Kami: Tenda Suwur, wedding organizer yang selalu menjadikan kenyamanan Anda sebagai prioritas utama dalam menyelenggarakan pernikahan.",
+" 💍 Menyatukan Visi Anda: Tenda Suwur hadir untuk menyatukan visi Anda dalam pernikahan yang indah dan bermakna.",
+" 💍 Bekerja Sesuai Budget: Percayakan pernikahan impian Anda pada Tenda Suwur, yang siap bekerja sesuai dengan budget yang Anda miliki.",
+" 💍 Mengatasi Tantangan Bersama: Tenda Suwur sebagai wedding organizer yang bekerja dengan hati, siap mengatasi setiap tantangan dalam menyelenggarakan pernikahan Anda.",
+" 💍 Kenangan untuk Seumur Hidup: Dengan dukungan dari Tenda Suwur, pastikan pernikahan Anda menjadi kenangan yang berharga seumur hidup.",
+" 💍 Solusi Terbaik untuk Anda: Tenda Suwur menyediakan solusi terbaik untuk mewujudkan pernikahan impian Anda dengan sempurna.",
+" 💍 Perhatian pada Detail: Percayakan setiap detail pernikahan Anda pada Tenda Suwur, yang selalu memberikan perhatian khusus dalam menyelenggarakan acara tersebut.",
+" 💍 Rencanakan Bersama Spesialis: Tenda Suwur sebagai spesialis dalam wedding organizer, hadir untuk merencanakan pernikahan Anda dengan cermat dan teliti.",
+" 💍 Mewujudkan Harapan dan Impian: Dengan bantuan Tenda Suwur sebagai wedding organizer handal, mewujudkan harapan dan impian pernikahan Anda adalah prioritas kami.",
+" 💍 Pengalaman Tak Terlupakan: Percayakan pernikahan Anda pada Tenda Suwur, dan biarkan kami menciptakan pengalaman tak terlupakan dalam momen bersejarah tersebut.",
+" 💍 Kreativitas yang Menginspirasi: Tenda Suwur, tempat Anda menemukan kreativitas yang menginspirasi dalam merencanakan pernikahan indah.",
+" 💍 Professionalisme dan Dedikasi: Dengan dukungan dari Tenda Suwur sebagai wedding organizer fleksibel, pastikan pernikahan Anda dijalankan dengan penuh dedikasi dan dedikasi.",
+" 💍 Tim Handal dan Terampil: Tenda Suwur memiliki tim wedding organizer yang handal dan terampil, siap membantu Anda menciptakan pernikahan yang luar biasa.",
+" 💍 Momen Bahagia yang Abadi: Percayakan momen bahagia pernikahan Anda pada Tenda Suwur, dan biarkan kami menciptakan kenangan abadi yang menghangatkan hati.",
+" 💍 Penuh Kejutan dan Kreativitas: Dengan bantuan Tenda Suwur, pastikan pernikahan Anda penuh kejutan dan kreativitas yang membuat tamu terkesan.",
+" 💍 Pengaturan yang Efisien: Percayakan pengaturan pernikahan Anda pada Tenda Suwur, yang siap menyelenggarakan semuanya dengan efisien dan rapi.",
+" 💍 Perencanaan Tepat Waktu: Tenda Suwur hadir untuk membantu Anda merencanakan pernikahan dengan tepat waktu, sehingga acara tersebut berjalan sesuai jadwal yang Anda inginkan."];
+  
+var u51=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/11e7)%u5.length);
+var u61=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/12e7)%u6.length);
+var v61=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/88e6)%v6.length);
+var w61=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/77e6)%w6.length);
+document.write('<b>'+u5[u51]+'</b>'+u6[u61]+v6[v61]+w6[w61]+'.<br>');
+
+var u1 = [" 🎉 Tenda Suwur: Solusi SEWA Alat Pesta MURAH di Surabaya - Sidoarjo 🎉",
+" 🌟 Perayaan Tanpa Batas, Harga Terjangkau! 🌟",
+" 🌈 Sukseskan Pesta Anda dengan Tenda Suwur! 🌈"];
+
+var u2 = [" Merencanakan pesta tak pernah semudah ini! Tersedia untuk wilayah Surabaya - Sidoarjo dan sekitarnya, Tenda Suwur siap menyediakan segala kebutuhan alat pesta yang Anda butuhkan.",
+" Tenda Suwur hadir untuk memenuhi segala kebutuhan alat pesta Anda dengan harga yang ramah di kantong. Di wilayah Surabaya - Sidoarjo dan sekitarnya, kami menawarkan persewaan alat pesta berkualitas tinggi yang akan membuat momen spesial Anda berkesan.",
+" Di Surabaya - Sidoarjo dan sekitarnya, Tenda Suwur adalah pilihan tepat untuk menyediakan segala kebutuhan alat pesta dengan harga yang kompetitif."];
+
+var u3 = [" Jadikan perayaan Anda lebih berarti dengan layanan kami yang berkualitas tinggi.",
+" Dengan harga yang terjangkau dan kualitas terbaik, kami hadir untuk mewujudkan acara impian Anda!"];
+
+var v1 = [" Tentukan tanggal acara Anda dan hubungi Tenda Suwur sekarang! Kami siap membantu Anda merencanakan dan menyediakan segala kebutuhan pesta Anda dengan penuh perhatian dan keahlian.",
+" Segera hubungi Tenda Suwur untuk merencanakan pesta tak terlupakan Anda.",
+" Segera hubungi Tenda Suwur dan biarkan kami menyempurnakan pesta Anda."];
+  
+var w1 = [" Dapatkan penawaran terbaik dan nikmati momen berharga bersama Tenda Suwur. 🎈",
+" Dapatkan kesempurnaan dalam setiap detail acara Anda dan buat kenangan abadi bersama kami. 🎊",
+" Dapatkan pelayanan terbaik dan nikmati momen berharga bersama orang terkasih. 🎉"];
+  
+var u11=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/13e7)%u1.length);
+var u21=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/10e7)%u2.length);
+var u31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/11e7)%u3.length);
+var v11=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/90e6)%v1.length);
+var w11=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/80e6)%w1.length);
+document.write(u1[u11]+u2[u21]+u3[u31]+v1[v11]+w1[w11]);
