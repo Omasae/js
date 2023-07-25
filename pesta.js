@@ -108,10 +108,29 @@ var b3 = [" cantik",
 " murah"];
 var b31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/71e6)%(b3.length-1));
 
+var a4 = [" juga ",
+" dan "," n ",
+" - ",
+" juga model ",
+" dan gambar/rancangan ",
+" / rancangan/desain ",
+" + ",
+" juga desain ",
+" dan sketsa ",
+" & ",
+" dan rekomendasi ",
+" untuk ide membuat tentang ",
+" / ",
+" atau ",
+" termasuk ",
+" dan cara bikin/ ",
+" juga tips memilih "];
+var a41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/97e6)%(a4.length-1));
+
 var x81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,9).getTime())/39e7)%x8.length);
 var y81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,8).getTime())/48e7)%y8.length);
 var z81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,7).getTime())/27e7)%z8.length);
-document.write('<h3>'+x8[x81]+b3[b31]+y8[y81]+z8[z81]+'</h3>');
+document.write('<h3>'+x8[x81]+b3[b31]+y8[y81]+(document.title)+a4[a41]+z8[z81]+'</h3>');
 
 var x9 = [" 🍴 Catering Prasmanan:",
 " 🍴 Catering Lezat:",
@@ -473,24 +492,6 @@ var a3 = [" di halaman lain di web ini",
 " yang bisa kamu share",
 " bisa dishare ke teman-teman"];
 
-var a4 = [" juga ",
-" dan "," n ",
-" - ",
-" juga model ",
-" dan gambar/rancangan ",
-" / rancangan/desain ",
-" + ",
-" juga desain ",
-" dan sketsa ",
-" & ",
-" dan rekomendasi ",
-" untuk ide membuat tentang ",
-" / ",
-" atau ",
-" termasuk ",
-" dan cara bikin/ ",
-" juga tips memilih "];
-
 var a5 = [" yang dapat kamu simak",
 " yang bisa kamu sebarkan",
 " untuk bisa kamu berbagi",
@@ -801,7 +802,6 @@ var aa=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/
 var a21=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/77e6)%a2.length);
 var bb=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/87e6)%b2.length);
 var a31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/67e6)%(a3.length-1));
-var a41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/97e6)%(a4.length-1));
 var b41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/27e6)%(b4.length-1));
 var a51=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/12e7)%(a5.length-1));
 
