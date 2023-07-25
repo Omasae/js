@@ -1,3 +1,350 @@
+var x8 = [" PERSEWAAN ALAT PESTA",
+" Penyewaan Peralatan Pesta",
+" Layanan Sewa Alat Pesta",
+" Jasa Rental Pesta",
+" Sewa Perlengkapan Pesta",
+" Perusahaan Sewa Peralatan Acara",
+" Tempat Sewa Alat Pesta",
+" Jasa Sewa Perlengkapan Pesta",
+" Layanan Rental Peralatan Pesta",
+" Penyedia Alat Pesta untuk Disewa",
+" Sewa Peralatan Acara",
+" Layanan Rental Alat Pesta",
+" Perusahaan Penyewaan Perlengkapan Pesta",
+" Tempat Penyewaan Alat Pesta",
+" Jasa Penyewaan Perlengkapan Pesta",
+" Layanan Sewa Peralatan Acara",
+" Penyedia Jasa Sewa Alat Pesta",
+" Tempat Sewa Perlengkapan Pesta",
+" Layanan Rental Alat Pesta",
+" Penyewaan Perlengkapan Pesta",
+" Jasa Sewa Peralatan Acara",
+" Tempat Penyewaan Peralatan Pesta",
+" Layanan Sewa Perlengkapan Acara",
+" Perusahaan Sewa Alat Pesta",
+" Tempat Penyewaan Perlengkapan Acara",
+" Layanan Rental Perlengkapan Acara",
+" Penyedia Sewa Peralatan Pesta",
+" Sewa Alat Pesta",
+" Layanan Sewa Perlengkapan Pesta",
+" Jasa Rental Perlengkapan Acara",
+" Penyewaan Alat Pesta",
+" Tempat Sewa Peralatan Acara",
+" Layanan Rental Peralatan Acara",
+" Penyedia Jasa Sewa Perlengkapan Pesta",
+" Sewa Perlengkapan Pesta",
+" Layanan Sewa Peralatan Pesta",
+" Jasa Sewa Perlengkapan Acara",
+" Tempat Penyewaan Peralatan Acara",
+" Layanan Rental Perlengkapan Pesta",
+" Perusahaan Sewa Perlengkapan Pesta",
+" Tempat Sewa Alat Pesta"];
+
+var y8 = [" dan",
+" &",
+" +",
+" juga",
+" serta",
+" dengan"];
+  
+var z8 = [" WEDDING ORGANIZER",
+" Perencana Pernikahan",
+" Jasa Wedding Planner",
+" Koordinator Pernikahan",
+" Penyelenggara Pernikahan",
+" Ahli Pernikahan",
+" Event Organizer Pernikahan",
+" Koordinator Acara Pernikahan",
+" Juru Rias Pernikahan",
+" Planner Pernikahan Terpercaya",
+" Tim Wedding Organizer",
+" Penyedia Layanan Pernikahan",
+" Perusahaan Wedding Planner",
+" Jasa Penyelenggara Pernikahan",
+" Layanan Wedding Organizer",
+" Koordinator Acara Pernikahan",
+" Planner Pernikahan Berpengalaman",
+" Penyedia Jasa Wedding Organizer",
+" Ahli Perencana Pernikahan",
+" Event Coordinator Pernikahan",
+" Tim Perencana Pernikahan",
+" Layanan Planner Pernikahan",
+" Perusahaan Penyelenggara Pernikahan",
+" Koordinator Acara Pernikahan Kredibel",
+" Wedding Consultant",
+" Jasa Perencana Pernikahan",
+" Penyelenggara Pesta Pernikahan",
+" Ahli Perencana Acara Pernikahan",
+" Event Manager Pernikahan",
+" Planner Pernikahan Terpercaya",
+" Tim Wedding Planner",
+" Layanan Perencana Pernikahan",
+" Perusahaan Penyelenggara Acara Pernikahan",
+" Koordinator Pernikahan Berpengalaman",
+" Wedding Coordinator",
+" Jasa Event Organizer Pernikahan",
+" Penyelenggara Pernikahan Berpengalaman",
+" Planner Acara Pernikahan",
+" Wedding Consultant Terpercaya",
+" Ahli Perencana Event Pernikahan",
+" Layanan Wedding Planner"];
+  
+var x81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,9).getTime())/39e7)%x8.length);
+var y81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,8).getTime())/48e7)%y8.length);
+var z81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,7).getTime())/27e7)%z8.length);
+document.write('<h3>'+x8[x81]+y8[y81]+z8[z81]+'</h3>');
+
+var x9 = [" 🍴 Catering Prasmanan:",
+" 🍴 Catering Lezat:",
+" 🍴 Catering Praktis:",
+" 🍽 Layanan Katering:",
+" 🍽 Katering Berkelas:",
+" 🍽 Katering Sederhana:",
+" 🍽 Katering Pilihan:",
+" 🍽 Layanan Katering Hemat:",
+" 🍽 Katering Kreatif:",
+" 🍽 Katering Organik:",
+" 🍽 Katering Personalisasi:",
+" 🍽 Melayani Katering Praktis:",
+" 🍽 Katering Eksklusif:",
+" 🍽 Layanan Katering Tradisional:",
+" 🍽 Katering Internasional:",
+" 🍽 Katering Halal dan toyib:",
+" 🍽 Catering Vegan dll:",
+" 🍽 Catering Seafood:",
+" 🍽 Catering Buffet:",
+" 🍽 Catering Dessert:"];
+
+var y9 = [" Lezat dan menggugah selera!",
+" Puaskan selera setiap tamu dengan pilihan menu prasmanan yang lezat dan bervariasi.",
+" Nikmati pilihan menu prasmanan yang praktis dan lezat.",
+" Nikmati hidangan lezat dan berkualitas dari layanan katering kami.",
+" Percayakan penyediaan makanan kepada tim berpengalaman dari layanan katering kami.",
+" Tersedia menu makanan berkelas dan elegan dari layanan katering kami.",
+" Nikmati beragam pilihan menu makanan dari layanan katering kami."," ",
+" Dapatkan pelayanan katering dengan harga yang terjangkau dan hemat.",
+" Hadirkan hidangan dengan presentasi kreatif dan unik dari layanan katering kami.",
+" Tersedia pilihan hidangan sehat dan organik dari layanan katering kami.",
+" Sesuaikan menu makanan dengan keinginan dan kebutuhan Anda dalam layanan katering kami.",
+" Tersedia pilihan hidangan praktis dan mudah disajikan dari layanan katering kami.",
+" Nikmati hidangan eksklusif dan mewah dari layanan katering kami.",
+" Tersedia hidangan tradisional dan autentik dari berbagai daerah dalam layanan katering kami.",
+" Nikmati hidangan dari berbagai masakan internasional atau yang lain yang lezat dan beragam dari layanan katering kami.",
+" Tersedia pilihan hidangan halal dari layanan katering kami.",
+" Nikmati hidangan sehat dan lezat tanpa daging dari layanan katering kami."," ",
+" Tersedia hidangan laut segar dan lezat dalam layanan katering kami.",
+" Nikmati hidangan prasmanan yang bervariasi dan menggiurkan dari layanan katering kami.",
+" Tersedia hidangan penutup manis dan lezat dari layanan katering kami."];
+  
+var z9 = [" Tersedia catering prasmanan dengan menu beragam yang memanjakan lidah dan mengisi perut setiap tamu.",
+" Nikmati hidangan istimewa dari Tenda Suwur.",
+" Kami menyediakan hidangan yang beragam untuk memuaskan selera semua tamu.",
+" Siapkan menu spesial untuk memanjakan selera tamu Anda.",
+" Dapatkan pelayanan yang terpercaya dan berkualitas.",
+" Buat momen bersejarah Anda semakin istimewa dengan hidangan yang istimewa.",
+" Sesuaikan menu sesuai dengan tema dan selera acara Anda.",
+" Tetap nikmati hidangan berkualitas tanpa menguras anggaran Anda.",
+" Buat tamu Anda terkesan dengan tampilan yang menarik.",
+" Prioritaskan kesehatan dan kesegaran dalam setiap sajian makanan.",
+" Dapatkan pengalaman kuliner yang disesuaikan dengan selera Anda.",
+" Memudahkan Anda dalam menyajikan makanan tanpa mengorbankan rasa dan kualitas.",
+" Buat acara Anda menjadi peristiwa yang mengesankan dengan hidangan istimewa.",
+" Hadirkan cita rasa klasik yang menghangatkan suasana acara Anda.",
+" Ciptakan pengalaman kuliner global untuk tamu Anda.",
+" Pastikan setiap hidangan sesuai dengan prinsip dan kepercayaan agama Anda.",
+" Dapatkan pengalaman kuliner vegan atau lainnya yang menyegarkan dan bergizi.",
+" Hadirkan hidangan seafood yang menggugah selera tamu Anda.",
+" Buat tamu Anda merasa puas dengan beragam pilihan makanan.",
+" Buat momen penutup acara Anda menjadi sesuatu yang istimewa."];
+  
+var x91=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,9).getTime())/39e7)%x9.length);
+var y91=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,9).getTime())/49e7)%y9.length);
+var z91=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,7).getTime())/27e7)%z9.length);
+document.write('<b>'+x9[x91]+'</b>'+y9[y91]+z9[z91]);
+
+var u9 = [" 🪑 Meja & Kursi:",
+" 🪑 Meja & Kursi Nyaman:",
+" 🪑 Meja & Kursi Modern:",
+" 🪑 Meja + Kursi Elegan:",
+" 🪑 Meja & Kursi Klasik:",
+" 🪑 Meja juga Kursi Praktis:",
+" 🪑 Meja dan Kursi Kreatif:",
+" 🪑 Meja & Kursi Berkualitas:",
+" 🪑 Meja & Kursi Bergaya:",
+" 🪑 Meja dan Kursi Multifungsi:",
+" 🪑 Meja & Kursi Kekinian:"];
+
+var v9 = [" Persiapkan tempat duduk yang nyaman dan cantik untuk tamu Anda.",
+" Tersedia meja dan kursi yang nyaman serta bergaya.",
+" Tersedia koleksi meja dan kursi modern yang stylish dan fungsional.",
+" Hadirkan suasana mewah dan elegan dengan koleksi meja dan kursi Suwur.",
+" Tersedia meja dan kursi bergaya klasik yang timeless dan indah."," ",
+" Persiapkan tempat duduk yang praktis dan fleksibel dengan koleksi meja dan kursi Suwur.",
+" Tersedia meja dan kursi dengan desain kreatif dan unik. (tersedia kursi lipat, plastik, bangket)",
+" Hadirkan tempat duduk berkualitas dengan koleksi meja dan kursi Suwur.",
+" Tersedia meja dan kursi bergaya yang akan meningkatkan estetika acara Anda. (ada kursi lipat, plastik, bangket)",
+" Persiapkan ruang serbaguna dengan koleksi meja dan kursi Suwur. (kursi lipat, plastik, bangket)"," ",
+" Tersedia meja dan kursi dengan tampilan kekinian dan trendy."];
+  
+var w9 = [" Kami menyediakan pilihan dekorasi yang elegan dan kreatif sesuai tema yang Anda inginkan.",
+" Kami mempersembahkan desain yang menawan untuk mewujudkan tema impian Anda.",
+" Kami memberikan sentuhan unik untuk menciptakan suasana perayaan yang berwarna-warni.",
+" Pilihan dekorasi elegan Suwur akan menciptakan suasana indah sesuai tema yang Anda impikan.",
+" Pesta Anda akan terasa magis dengan sentuhan elegan dari pilihan dekorasi Suwur.",
+" Tema yang Anda inginkan akan terwujud dengan desain yang mempesona.",
+" Pilihan dekorasi berwarna-warni Suwur akan memberikan sentuhan unik pada perayaan Anda.",
+" Tema impian Anda akan terwujud dengan elegan.",
+" Sentuhan elegan akan memukau semua tamu yang hadir.",
+" Tema acara Anda akan terasa lebih istimewa dengan desain Suwur.",
+" Pesta Anda akan terasa lebih berwarna dengan sentuhan unik dari pilihan dekorasi Suwur.",
+" Tema impian Anda akan terwujud dengan sempurna.",
+" Desain menawan Suwur akan memukau semua tamu.",
+" Suasana perayaan yang berwarna-warni akan menjadi tak terlupakan."];
+  
+var u91=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,9).getTime())/20e7)%u9.length);
+var v91=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,8).getTime())/84e6)%v9.length);
+var w91=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,7).getTime())/13e7)%w9.length);
+document.write('<b>'+u9[u91]+'</b>'+v9[v91]+w9[w91]);
+
+var u8 = [" 🎊 Dekorasi Menawan:",
+" 🎉 Dekorasi Berkelas:",
+" 🎆 Dekorasi Kreatif:",
+" 🎊 Dekorasi Istimewa:",
+" 🎉 Dekorasi Spesial:",
+" 🎆 Dekor Unik & Menarik:"];
+
+var v8 = [" Ciptakan suasana pesta yang indah dan berkesan dengan dekorasi menarik dari Tenda Suwur.",
+" Ciptakan atmosfer magis dan memukau dalam pesta Anda dengan pilihan dekorasi elegan dari Tenda Suwur.",
+" Tampil beda dengan dekorasi kreatif dari Tenda Suwur.",
+" Ciptakan pesta yang berkesan dengan dekorasi menawan dari Tenda Suwur.",
+" Tenda Suwur hadir dengan dekorasi berkelas yang memukau.",
+" Ciptakan momen tak terlupakan dalam pesta Anda dengan dekorasi menarik dari Tenda Suwur.",
+" Tampil beda dengan dekorasi kreatif dari Tenda Suwur.",
+" Tenda Suwur menyajikan dekorasi menawan yang akan menciptakan suasana pesta yang indah dan berkesan.",
+" Ciptakan atmosfer magis dalam pesta Anda dengan dekorasi berkelas dari Tenda Suwur.",
+" Ciptakan pesta yang tak terlupakan dengan pilihan dekorasi menarik dari Tenda Suwur.",
+" Tampil beda dengan dekorasi kreatif dari Tenda Suwur.",
+" Tenda Suwur menyediakan dekorasi menawan dan elegan untuk menciptakan pesta yang berkesan.",
+" Ciptakan suasana magis dalam pesta Anda dengan dekorasi berkelas dari Tenda Suwur.",
+" Tampil beda dalam pesta Anda dengan dekorasi kreatif dari Tenda Suwur."];
+  
+var w8 = [" Kami menyediakan pilihan dekorasi yang elegan dan kreatif sesuai tema yang Anda inginkan.",
+" Kami mempersembahkan desain yang menawan untuk mewujudkan tema impian Anda.",
+" Kami memberikan sentuhan unik untuk menciptakan suasana perayaan yang berwarna-warni.",
+" Pilihan dekorasi elegan Suwur akan menciptakan suasana indah sesuai tema yang Anda impikan.",
+" Pesta Anda akan terasa magis dengan sentuhan elegan dari pilihan dekorasi Suwur.",
+" Tema yang Anda inginkan akan terwujud dengan desain yang mempesona.",
+" Pilihan dekorasi berwarna-warni Suwur akan memberikan sentuhan unik pada perayaan Anda.",
+" Tema impian Anda akan terwujud dengan elegan."," ",
+" Sentuhan elegan akan memukau semua tamu yang hadir.",
+" Tema acara Anda akan terasa lebih istimewa dengan desain Suwur.",
+" Pesta Anda akan terasa lebih berwarna dengan sentuhan unik dari pilihan dekorasi Suwur.",
+" Tema impian Anda akan terwujud dengan sempurna."," ",
+" Desain menawan Suwur akan memukau semua tamu.",
+" Suasana perayaan yang berwarna-warni akan menjadi tak terlupakan."];
+  
+var u81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,9).getTime())/19e7)%u8.length);
+var v81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,8).getTime())/88e6)%v8.length);
+var w81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,7).getTime())/17e7)%w8.length);
+document.write('<b>'+u8[u81]+'</b>'+v8[v81]+w8[w81]);
+
+var u7 = [" 🎪 Terop & Panggung:",
+" 🏰 Terop & Panggung Spektakuler:",
+" 🎪 Terop & Panggung Multifungsi:",
+" 🎪 Terop & Panggung Eksklusif:",
+" 🏰 Terop & Panggung Berkelas:",
+" 🎪 Terop & Panggung Impresif:",
+" 🎪 Terop & Panggung Unik:",
+" 🏰 Terop & Panggung Megah:",
+" 🎪 Terop & Panggung Elegan:",
+" 🏰 Terop & Panggung Luar Biasa:",
+" 🎪 Terop & Panggung Praktis:",
+" 🏰 Terop & Panggung Kreatif:",
+" 🎪 Terop & Panggung Fleksibel:",
+" 🏰 Terop & Panggung spesial:"];
+
+var v7 = [" Tampilan berkelas dari terop dan panggung Suwur akan menciptakan suasana istimewa dalam perayaan Anda.",
+" Kreasikan suasana unik dengan terop dan panggung dari Tenda Suwur yang memberikan sentuhan kreatif dalam acara Anda.",
+" Hadirkan kemegahan dalam setiap adegan acara Anda dengan terop dan panggung Suwur yang megah dan istimewa.",
+" Tampilan elegan dari terop dan panggung Suwur akan menambah pesona dalam acara istimewa Anda.",
+" Ciptakan momen luar biasa dengan terop dan panggung spektakuler dari Tenda Suwur yang akan menjadi sorotan utama dalam acara Anda.",
+" Desain praktis dari terop dan panggung Suwur memungkinkan Anda mengatur ruang dengan efisien untuk kebutuhan beragam acara.",
+" Kreativitas tim kami dalam menghadirkan terop dan panggung akan menambah nilai artistik dalam acara Anda.",
+" Tenda Suwur menyediakan terop dan panggung multifungsi yang dapat disesuaikan dengan berbagai tema acara Anda.",
+" Keahlian dan dedikasi tim kami dalam menyediakan terop dan panggung akan memberikan pelayanan terbaik untuk acara Anda.",
+" Impressi tak terlupakan akan tercipta dengan terop dan panggung Suwur yang menghadirkan tampilan menakjubkan dalam acara Anda.",
+" Tenda Suwur menyediakan terop dan panggung eksklusif yang akan meningkatkan kesan mewah dalam acara Anda.",
+" Hadirkan ruang serbaguna dengan terop dan panggung dari Suwur.",
+" Tampilkan adegan tak terlupakan dengan terop dan panggung berkelas dari Suwur. Dapatkan nuansa spesial dan megah yang akan mengesankan semua tamu.",
+" Hadirkan suasana megah dan istimewa dengan terop dan panggung dari Suwur."];
+  
+var w7 = [" Memberikan kenyamanan bagi tamu dan keindahan acara Anda.",
+" Dapatkan nuansa unik dan megah yang akan mengesankan semua tamu.",
+" Tenda Suwur menghadirkan desain praktis yang fleksibel untuk kebutuhan acara Anda.",
+" Hadirkan suasana nyaman dan indah bagi tamu yang menghadiri acara Anda.",
+" Rasakan kesan khusus dan megah yang akan memukau semua tamu yang hadir."," ",
+" Tenda Suwur menyajikan desain praktis dan fleksibel untuk memenuhi kebutuhan acara Anda.",
+" Sajikan kenyamanan dan keindahan acara yang tak terlupakan bagi semua tamu.",
+" Tampilkan nuansa istimewa dan kemegahan yang akan memberikan kesan istimewa pada tamu Anda.",
+" Hadirkan desain praktis dan fleksibel dari Tenda Suwur untuk memberikan pengalaman terbaik dalam acara Anda."," ",
+" Nikmati kenyamanan dan keindahan acara dengan penuh dedikasi yang akan memukau semua tamu.",
+" Tenda Suwur hadir dengan desain yang praktis dan fleksibel untuk menyesuaikan acara Anda dengan sempurna.",
+" Berikan pengalaman tak terlupakan dengan nuansa berkesan dan kemegahan dari Tenda Suwur yang akan mempesona semua tamu."];
+  
+var u71=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,9).getTime())/13e7)%u7.length);
+var v71=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,8).getTime())/28e7)%v7.length);
+var w71=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,7).getTime())/11e7)%w7.length);
+document.write('<b>'+u7[u71]+'</b>'+v7[v71]+w7[w71]+'<br>');
+
+var u = [" 🔊 Kualitas Sound System Unggul:"," 🔊 Sound System Terbaik:"," 🔊 Sound System Hebat:", 
+" 2. 🎶 Pengalaman Audio Premium:",
+" 3. 🎵 Suara Luar Biasa:",
+" 4. 🎧 Kualitas Suara Tak Tertandingi:",
+" 5. 🎤 Audio Kristal Jelas:",
+" 6. 🎶 Kualitas Suara Terbaik:",
+" 7. 🎵 Performa Suara Unggul:",
+" 8. 🎧 Solusi Audio Premium:",
+" 9. 🎤 Suara Tidak Tertandingi:",
+" 10. 🎶 Rekayasa Suara Dinamis:",
+" 11. 🎵 Kualitas Suara Terbaik:",
+" 12. 🎧 Keunggulan Sound System:",
+" 🔊 Sound System Berkualitas:"];
+
+var v = [" Pastikan setiap kata dan irama terdengar jernih dan menggelegar.","Pastikan setiap kata dan nada terdengar jelas dan menyentuh hati.",
+" Nikmati kejernihan setiap kata dan irama yang menggema.",
+" Biarkan setiap kata dan nada bergema dengan sempurna.",
+" Tingkatkan suasana dengan sound system terbaik.",
+" Biarkan musik menghidupkan diri dengan kejernihan tak tertandingi.",
+" Berikan pengalaman audio yang luar biasa dengan sound system berkualitas Suwur.",
+" Pastikan setiap nada dan lirik terdengar dengan sempurna.",
+" Memukau audiens dengan suara jernih dan nada yang dinamis.",
+" Biarkan irama dan vokal bersinar dengan sempurna.",
+" Rasakan puncak kualitas suara."," ",
+" Nikmati setiap kata dan melodi dengan kejelasan maksimal.",
+" Rasakan kekuatan setiap suara dan lirik.",
+" Pastikan setiap kata dan irama terdengar jernih dan menggelegar."];
+  
+var w = [" Pastikan pengalaman audio yang menghanyutkan untuk perayaan Anda.",
+" Dapatkan pengalaman audio terbaik dengan sound system berkualitas dari Tenda Suwur.",
+" Dengan sound system berkualitas dari Tenda Suwur, setiap kata dan musik akan terdengar jelas dan memikat.",
+" Sound system premium Suwur akan menyemarakkan acara Anda.",
+" Rasakan perbedaannya dengan sound system kelas Suwur.",
+" Sound system berkualitas Suwur menjamin suasana pesta yang tak terlupakan.",
+" Rasakan musik seperti belum pernah sebelumnya.",
+" Rasakan pengalaman terbaik dengan sound system unggulan Suwur.",
+" Sound system berkualitas baik didesain untuk memukau semua orang.",
+" Sound system berkualitas Suwur akan meningkatkan pengalaman pesta Anda.",
+" Sound system unggulan Suwur akan mengesankan semua orang.",
+" Kami menyediakan sound system berkualitas terbaik yang akan menghidupkan pesta Anda.",
+" Sound system Suwur dirancang untuk menciptakan kesan yang abadi.",
+" Sound system berkelas Suwur akan meningkatkan pesta Anda ke level baru.",
+" Kami menyediakan sound system berkualitas yang akan menghidupkan pesta Anda."];
+  
+var u1=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/13e7)%u.length);
+var v1=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/79e6)%v.length);
+var w1=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/89e6)%w.length);
+document.write(u[u1]+v[v1]+w[w1]);
+
 var u9 = [" 💒 Kuade / Pelaminan Eksklusif:",
 " 💒 Kuade / Pelaminan Unik:",
 " 💒 Kuade / Pelaminan Istimewa:",
@@ -28,10 +375,10 @@ var w9 = [" Desain unik yang mencerminkan keindahan dan kebahagiaan.",
 " Perancangan mewah dan elegan akan mengesankan semua tamu.",
 " Rancangan unik akan mencerminkan keindahan perayaan Anda.",
 " Desain khusus akan mencerminkan kepribadian Anda.",
-" Design mewah dan elegan akan memikat perhatian semua tamu.",
+" Design mewah dan elegan akan memikat perhatian semua tamu."," ",
 " Desain unik dan indah akan menghadirkan kebahagiaan.",
 " Perencanaan eksklusif akan mencerminkan kepribadian Anda.",
-" Desain mewah dan elegan akan memukau perhatian semua tamu.",
+" Desain mewah dan elegan akan memukau perhatian semua tamu."," ",
 " Desain unik yang mencerminkan keindahan dan kebahagiaan perayaan Anda.",
 " Desain eksklusif yang akan mencerminkan kepribadian dan kebahagiaan Anda."];
   
@@ -44,7 +391,7 @@ var a1 = [" Ada juga yang mencari info",
 " Dapatkan juga informasi mengenai",
 " Ada juga tentang",
 " Dapatkan bacaan tentang",
-" Inilah","Untuk info tentang",
+" Inilah","Untuk info tentang"," ",
 " Ini ada info",
 " Ada juga teman yang mencari mengenai",
 " Juga tentang"," Untuk yang sedang mencari informasi",
@@ -457,6 +804,7 @@ var a31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())
 var a41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/97e6)%(a4.length-1));
 var b41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/27e6)%(b4.length-1));
 var a51=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/12e7)%(a5.length-1));
+
 document.write(a1[aa]+b4[b41+1]+b3[b31]+a3[a31]+a4[a41]+'<b>'+(document.title)+b3[b31+1]+'</b>. '+a2[a21]+'<b>'+b4[b41]+'</b>'+a5[a51]+a4[a41+1]+b2[bb]+'.<br><br>');
 
 var u5 = [" 💍 Wedding Organizer Handal:",
@@ -470,7 +818,7 @@ var u6 = [" Percayakan pernikahan Anda kepada tim handal dari Tenda Suwur.",
 " Percayakan pernikahan impian Anda kepada tim terampil kami."];
 
 var v6 = [" Kami berkomitmen untuk mewujudkan hari bahagia Anda dengan sempurna.",
-" Tim terampil kami akan mengatur setiap detail dengan sempurna.",
+" Tim terampil kami akan mengatur setiap detail dengan sempurna.","",
 " Kami siap membantu menyelenggarakan momen bersejarah Anda dengan penuh perhatian dan dedikasi.",
 " Tenda Suwur sebagai wedding organizer siap membantu mewujudkan hari bahagia Anda dengan sempurna."];
   
@@ -484,7 +832,7 @@ var w6 = [" 💍 Momen Bersejarah: Tenda Suwur sebagai wedding organizer istimew
 " 💍 Semua yang Anda Impikan: Tenda Suwur sebagai wedding organizer terpercaya siap mewujudkan semua impian Anda untuk pernikahan yang sempurna.",
 " 💍 Detail yang Sempurna: Percayakan setiap detail pernikahan Anda kepada Tenda Suwur, agar acara tersebut berjalan dengan sempurna dan tanpa hambatan.",
 " 💍 Rencanakan Bersama Kami: Tenda Suwur hadir sebagai mitra terbaik dalam merencanakan pernikahan Anda dengan kreativitas dan kecermatan.",
-" 💍 Mewujudkan Harapan Anda: Tenda Suwur sebagai wedding organizer berpengalaman, berkomitmen untuk mewujudkan harapan Anda dalam pernikahan yang indah.",
+" 💍 Mewujudkan Harapan Anda: Tenda Suwur sebagai wedding organizer berpengalaman, berkomitmen untuk mewujudkan harapan Anda dalam pernikahan yang indah.","",
 " 💍 Sukseskan Pernikahan Anda: Dengan dukungan dari Tenda Suwur sebagai wedding organizer handal, pastikan pernikahan Anda sukses dan berkesan.",
 " 💍 Menjadi Kenyataan: Percayakan impian pernikahan Anda pada Tenda Suwur, dan biarkan kami menjadikannya kenyataan yang indah.",
 " 💍 Pengalaman Tidak Terlupakan: Dengan bimbingan dari Tenda Suwur sebagai wedding organizer terpercaya, pastikan pengalaman pernikahan Anda tak terlupakan.",
@@ -496,7 +844,7 @@ var w6 = [" 💍 Momen Bersejarah: Tenda Suwur sebagai wedding organizer istimew
 " 💍 Penuh Kreativitas dan Inovasi: Tenda Suwur siap memberikan sentuhan kreativitas dan inovasi dalam merencanakan pernikahan Anda.",
 " 💍 Momen Berharga: Percayakan momen berharga pernikahan Anda pada Tenda Suwur, dan biarkan kami menciptakan kenangan tak terlupakan.",
 " 💍 Pengaturan yang Sempurna: Dengan bantuan Tenda Suwur sebagai wedding organizer handal, pastikan setiap detail pernikahan Anda diatur dengan sempurna.",
-" 💍 Tim Terbaik untuk Anda: Tenda Suwur memiliki tim wedding organizer terbaik yang siap membantu mewujudkan pernikahan Anda sesuai dengan impian.",
+" 💍 Tim Terbaik untuk Anda: Tenda Suwur memiliki tim wedding organizer terbaik yang siap membantu mewujudkan pernikahan Anda sesuai dengan impian.","",
 " 💍 Pelaksanaan yang penuh perhatian: Dengan dukungan dari Tenda Suwur sebagai wedding organizer terpercaya, pastikan pelaksanaan pernikahan Anda berjalan dengan menyenangkan.",
 " 💍 Detail Terjaga dengan Baik: Percayakan setiap detail pernikahan Anda pada Tenda Suwur, dan biarkan kami menjaganya dengan baik agar acara berjalan lancar.",
 " 💍 Kenyamanan Anda Prioritas Kami: Tenda Suwur, wedding organizer yang selalu menjadikan kenyamanan Anda sebagai prioritas utama dalam menyelenggarakan pernikahan.",
@@ -518,7 +866,7 @@ var w6 = [" 💍 Momen Bersejarah: Tenda Suwur sebagai wedding organizer istimew
 " 💍 Perencanaan Tepat Waktu: Tenda Suwur hadir untuk membantu Anda merencanakan pernikahan dengan tepat waktu, sehingga acara tersebut berjalan sesuai jadwal yang Anda inginkan."];
   
 var u51=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/11e7)%u5.length);
-var u61=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/12e7)%u6.length);
+var u61=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/16e7)%u6.length);
 var v61=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/88e6)%v6.length);
 var w61=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/77e6)%w6.length);
 document.write('<b>'+u5[u51]+'</b>'+u6[u61]+v6[v61]+w6[w61]+'.<br>');
@@ -528,10 +876,10 @@ var u1 = [" 🎉 Tenda Suwur: Solusi SEWA Alat Pesta MURAH di Surabaya - Sidoarj
 " 🌈 Sukseskan Pesta Anda dengan Tenda Suwur! 🌈"];
 
 var u2 = [" Merencanakan pesta tak pernah semudah ini! Tersedia untuk wilayah Surabaya - Sidoarjo dan sekitarnya, Tenda Suwur siap menyediakan segala kebutuhan alat pesta yang Anda butuhkan.",
-" Tenda Suwur hadir untuk memenuhi segala kebutuhan alat pesta Anda dengan harga yang ramah di kantong. Di wilayah Surabaya - Sidoarjo dan sekitarnya, kami menawarkan persewaan alat pesta berkualitas tinggi yang akan membuat momen spesial Anda berkesan.",
+" Tenda Suwur hadir untuk memenuhi segala kebutuhan alat pesta Anda dengan harga yang ramah di kantong. Di wilayah Surabaya - Sidoarjo dan sekitarnya, kami menawarkan persewaan alat pesta berkualitas yang akan membuat momen spesial Anda berkesan.",
 " Di Surabaya - Sidoarjo dan sekitarnya, Tenda Suwur adalah pilihan tepat untuk menyediakan segala kebutuhan alat pesta dengan harga yang kompetitif."];
 
-var u3 = [" Jadikan perayaan Anda lebih berarti dengan layanan kami yang berkualitas tinggi.",
+var u3 = [" Jadikan perayaan Anda lebih berarti dengan layanan yang berkualitas.",
 " Dengan harga yang terjangkau dan kualitas terbaik, kami hadir untuk mewujudkan acara impian Anda!"];
 
 var v1 = [" Tentukan tanggal acara Anda dan hubungi Tenda Suwur sekarang! Kami siap membantu Anda merencanakan dan menyediakan segala kebutuhan pesta Anda dengan penuh perhatian dan keahlian.",
@@ -544,7 +892,7 @@ var w1 = [" Dapatkan penawaran terbaik dan nikmati momen berharga bersama Tenda 
   
 var u11=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/13e7)%u1.length);
 var u21=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/10e7)%u2.length);
-var u31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/11e7)%u3.length);
+var u31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/21e7)%u3.length);
 var v11=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/90e6)%v1.length);
 var w11=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,10).getTime())/80e6)%w1.length);
 document.write(u1[u11]+u2[u21]+u3[u31]+v1[v11]+w1[w11]);
