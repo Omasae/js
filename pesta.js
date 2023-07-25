@@ -88,11 +88,30 @@ var z8 = [" WEDDING ORGANIZER",
 " Wedding Consultant Terpercaya",
 " Ahli Perencana Event Pernikahan",
 " Layanan Wedding Planner"];
-  
+
+var b3 = [" cantik",
+" bagus",
+" keren",
+" unik",
+" spesial",
+" istimewa",
+" terkini",
+" terbaru",
+" kekinian",
+" update",
+" up to date",
+" masa kini",
+" model baru",
+" model masa kini",
+" viral",
+" yang paling banyak diminati",
+" murah"];
+var b31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/71e6)%(b3.length-1));
+
 var x81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,9).getTime())/39e7)%x8.length);
 var y81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,8).getTime())/48e7)%y8.length);
 var z81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,7).getTime())/27e7)%z8.length);
-document.write('<h3>'+x8[x81]+y8[y81]+z8[z81]+'</h3>');
+document.write('<h3>'+x8[x81]+b3[b31]+y8[y81]+z8[z81]+'</h3>');
 
 var x9 = [" 🍴 Catering Prasmanan:",
 " 🍴 Catering Lezat:",
@@ -579,24 +598,6 @@ var b2 = [" sewa alat pesta",
 " penyedia layanan dekorasi acara perusahaan",
 " jasa pemasangan lighting dan dekorasi pernikahan"];
 
-var b3 = [" cantik",
-" bagus",
-" keren",
-" unik",
-" spesial",
-" istimewa",
-" terkini",
-" terbaru",
-" kekinian",
-" update",
-" up to date",
-" masa kini",
-" model baru",
-" model masa kini",
-" viral",
-" yang paling banyak diminati",
-" murah"];
-
 var b4 = [" paket wedding organizer di rumah",
 " harga paket pernikahan di rumah",
 " paket pernikahan 15 juta di rumah",
@@ -799,7 +800,6 @@ var b4 = [" paket wedding organizer di rumah",
 var aa=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/17e7)%a1.length);
 var a21=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/77e6)%a2.length);
 var bb=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/87e6)%b2.length);
-var b31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/71e6)%(b3.length-1));
 var a31=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/67e6)%(a3.length-1));
 var a41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/97e6)%(a4.length-1));
 var b41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())/27e6)%(b4.length-1));
