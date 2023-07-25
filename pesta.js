@@ -130,7 +130,7 @@ var a41=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,20).getTime())
 var x81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,9).getTime())/39e7)%x8.length);
 var y81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,8).getTime())/48e7)%y8.length);
 var z81=Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,7).getTime())/27e7)%z8.length);
-document.write('<h3>'+x8[x81]+b3[b31]+y8[y81]+(document.title)+a4[a41]+z8[z81]+'</h3>');
+document.write('<h3>'+x8[x81]+b3[b31]+y8[y81]+ti+a4[a41]+z8[z81]+'</h3>');
 
 var x9 = [" 🍴 Catering Prasmanan:",
 " 🍴 Catering Lezat:",
