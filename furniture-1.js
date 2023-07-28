@@ -37,9 +37,9 @@ var w = ["Kamu bisa pilih sendiri ukuran, warna, dan bentuknya sesuai yang kamu 
 "Kami menyediakan desain custom dengan pilihan ukuran, warna, dan bentuk yang bisa kamu pilih.~ ",
 "Kami menyediakan desain custom dengan beragam pilihan ukuran, warna, dan bentuk.~ ",
 "Kami menawarkan desain custom dengan berbagai pilihan ukuran, warna, dan bentuk.~ "];
-var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 16).getTime()) / 35e6) % u.length);
-var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 41e6) % v.length);
-var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 9).getTime()) / 38e6) % w.length);
+var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 11)).getTime()) / 35e6) % u.length);
+var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 23)).getTime()) / 41e6) % v.length);
+var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 19)).getTime()) / 38e6) % w.length);
 document.write(u[d]+v[e]+w[f]+'<br/>');
 
 var u1 = ["Furnitur Omasae adalah yang terbaik",
@@ -90,9 +90,9 @@ var w1 = ["Kami ingin pastikan <b>furniture</b> kamu tahan lama dan tidak mudah 
 "Supaya furniturmu memiliki kualitas yang terbaik dan tahan lama.",
 "Kita berharap furniturmu tetap bagus dan dapat digunakan dalam waktu yang lama.",
 "Kami ingin furniturmu tetap awet dan memuaskan."];
-var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 16).getTime()) / 34e6) % u1.length);
-var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 6).getTime()) / 43e6) % v1.length);
-var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 9).getTime()) / 37e6) % w1.length);
+var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 10)).getTime()) / 34e6) % u1.length);
+var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 18)).getTime()) / 43e6) % v1.length);
+var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 15)).getTime()) / 37e6) % w1.length);
 document.write(u1[d1]+v1[e1]+w1[f1]);
 
 var u2 = ["Hemat dan Berkualitas:",
@@ -152,9 +152,9 @@ var w2 = [" Jadi, kamu tidak perlu khawatir tentang budget yang kamu miliki.`",
 " kalian bisa memiliki <b>furniture</b> yang tahan lama tanpa perlu mengeluarkan banyak uang.`",
 " Jadi, kamu bisa mendapatkan <b>furniture</b> yang bagus tanpa perlu merogoh kocek terlalu dalam.`",
 " Dengan begitu, kamu bisa mendapatkan <b>furniture</b> yang baik untuk rumahmu tanpa harus membayar mahal."];
-var d2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 26).getTime()) / 55e6) % u2.length);
-var e2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 23).getTime()) / 83e5) % v2.length);
-var f2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, 2).getTime()) / 67e6) % w2.length);
+var d2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 1)).getTime()) / 55e6) % u2.length);
+var e2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 4)).getTime()) / 83e5) % v2.length);
+var f2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 23)).getTime()) / 67e6) % w2.length);
 document.write(u2[d2]+v2[e2]+w2[f2]+'<br/>');
 
 var u3 = [" Cepat dan Berkualitas:",
