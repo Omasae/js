@@ -208,7 +208,7 @@ var w3 = [" Pesananmu akan selesai tepat waktu.*",
 " Orderanmu akan jadi dengan kualitas yang terjamin.*",
 " Pesananmu akan selesai dengan tepat waktu.*",
 " Orderan kamu akan selesai tepat waktu dengan kualitas yang tak tergoyahkan.*"];
-var d3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 26).getTime()) / 65e6) % u3.length);
-var e3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 23).getTime()) / 97e5) % v3.length);
-var f3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, 12).getTime()) / 27e6) % w3.length);
+var d3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, tgN).getTime()) / 65e6) % u3.length);
+var e3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, (tgN - 3)).getTime()) / 97e5) % v3.length);
+var f3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, (tgN - 13)).getTime()) / 27e6) % w3.length);
 document.write(u3[d3]+v3[e3]+w3[f3]+'<br/>');
