@@ -137,8 +137,127 @@ var u1 = [" Ada juga yang mencari info",
 " Mengenai"," Tentang"," Dan mengenai",
 " Dalam hal"];
 
-const o = (document.title),r = o.substr(0, o.indexOf('-')).trim();
+var ta1 = [" Pilihan",
+" Dapatkan",
+" Pilihan bijak",
+" Sedia",
+" Nikmati",
+" Temukan",
+" Tersedia"];
+
+var ta2 = [" air Tangki sumber pegunungan",
+" air sumber gunung",
+" air sumber pegunungan",
+" Air Tangki sumber gunung",
+" Air Tangki stainless",
+" Air Tangki"];
+
+var ta3 = [" dan Mesin Depo Air Minum Isi Ulang",
+" juga Paket Depo Air Minum Isi Ulang",
+" dan Mesin Depo Air Minum Isi Ulang",
+" + Paket Depo Air Minum Isi Ulang",
+" &amp; Mesin Depo Air Minum Isi Ulang",
+" dan Mesin Depo Isi Ulang",
+" dan Paket Depo Air Isi Ulang"];
   
+var ta4 = [" bagus",
+" kekinian",
+" terkini",
+" hemat",
+" murah",
+" terbaik",
+" yang banyak dicari",
+" viral",
+" yang disukai banyak orang",
+" yang lagi viral"];
+  
+var ua1 = [" dan memberikan info",
+" juga informasi mengenai",
+" juga tentang",
+" ada bacaan tentang",
+" Inilah"," Untuk info tentang",
+" Ini ada info"," Juga tentang",
+" Ada juga mengenai",
+" Juga tentang"," Untuk yang sedang mencari informasi",
+" Mengenai"," Tentang"," Dan mengenai",
+" Dalam hal"];
+
+var va1 = [" Kami Siap Melayani Kebutuhan Anda:",
+" Solusi Kebutuhan Anda Tersedia di Sini:",
+" Layanan Kami Dapat Memenuhi Kebutuhan Anda:",
+" Temukan Layanan yang Tepat untuk Kebutuhan Anda:",
+" Kami Hadir untuk Melayani Kebutuhan Anda:",
+" Percayakan Kebutuhan Anda pada Layanan Kami:",
+" Pilihan Layanan Sesuai Kebutuhan Anda:",
+" Dapatkan Solusi Kebutuhan Anda Bersama Kami:",
+" Kami Siap Mendukung Kebutuhan Anda:",
+" Layanan Kami Sesuai dengan Kebutuhan Anda:",
+" Cari Solusi Kebutuhan Anda di Sini:",
+" Kami Hadir untuk Memenuhi Kebutuhan Anda:",
+" Layanan Tepat untuk Memenuhi Kebutuhan Anda:",
+" Percayakan Kebutuhan Anda kepada Kami:",
+" Dapatkan Layanan yang Tepat untuk Kebutuhan Anda:",
+" Temukan Solusi Kebutuhan Anda Bersama Kami:",
+" Kami Siap Mendukung Semua Kebutuhan Anda:",
+" Pilihan Layanan Sesuai dengan Kebutuhan Anda:",
+" Layanan Terbaik untuk Memenuhi Kebutuhan Anda."];
+
+var va2 = [" Air Segar dari Pegunungan (Jasa Pengiriman)",
+" Air Asli Pegunungan (Jasa Pengiriman)",
+" Nikmati Air Pegunungan (Jasa Pengiriman)",
+" Air Murni dari Pegunungan (Jasa Pengiriman)",
+" Dapatkan Air Pegunungan yang Segar (Jasa Pengiriman)",
+" Air Berkualitas dari Pegunungan (Jasa Pengiriman)",
+" Sumber Air Pegunungan Terbaik (Jasa Pengiriman)",
+" Air Jernih Pegunungan (Jasa Pengiriman)",
+" Air Bersih dari Pegunungan (Jasa Pengiriman)",
+" Pilihan Air Pegunungan (Jasa Pengiriman)",
+" Air Sumber Pegunungan Terpercaya (Jasa Pengiriman)",
+" Air Alami dari Pegunungan (Jasa Pengiriman)",
+" Air Pegunungan untuk Pengiriman (Jasa Pengiriman)",
+" Cari Air Pegunungan Terbaik (Jasa Pengiriman)",
+" Air Kristal dari Pegunungan (Jasa Pengiriman)",
+" Air dari Sumber Pegunungan (Jasa Pengiriman)",
+" Temukan Air Pegunungan (Jasa Pengiriman) Terbaik",
+" Air Pegunungan Berkualitas (Jasa Pengiriman)",
+" Sumber Air Pegunungan Terpercaya (Jasa Pengiriman)"];
+
+var va3 = [" Dapatkan Layanan Pengiriman Air Tangki Sumber Pegunungan dengan Kualitas Terjaga.",
+" Nikmati Layanan Pengiriman Air Tangki dari Sumber Pegunungan dengan Kualitas Terjaga.",
+" Pilih Layanan Pengiriman Air Tangki dengan Sumber Pegunungan Terjaga dan Berkualitas.",
+" Temukan Layanan Pengiriman Air Tangki dari Sumber Pegunungan dengan Kualitas Terjaga.",
+" Layanan Pengiriman Air Tangki Sumber Pegunungan dengan Kualitas Terjaga Tersedia.",
+" Air Tangki dari Sumber Pegunungan dengan Kualitas Terjaga dan Layanan Pengiriman.",
+" Layanan Pengiriman Air Tangki Sumber Pegunungan dengan Fokus pada Kualitas.",
+" Dapatkan Layanan Pengiriman Air Tangki Sumber Pegunungan Terjaga dan Berkualitas.",
+" Nikmati Layanan Pengiriman Air Tangki dari Sumber Pegunungan yang Terjaga dan Berkualitas.",
+" Pilihan Layanan Pengiriman Air Tangki Sumber Pegunungan dengan Kualitas Terjaga.",
+" Layanan Pengiriman Air Tangki dari Sumber Pegunungan dengan Perhatian pada Kualitas.",
+" Air Tangki Sumber Pegunungan dengan Layanan Pengiriman dan Kualitas Terjaga.",
+" Temukan Layanan Pengiriman Air Tangki dari Sumber Pegunungan Terjaga dan Berkualitas.",
+" Layanan Pengiriman Air Tangki Sumber Pegunungan yang Terjaga dan Berkualitas.",
+" Air Tangki dari Sumber Pegunungan dengan Layanan Pengiriman Berkualitas.",
+" Dapatkan Layanan Pengiriman Air Tangki Sumber Pegunungan dengan Fokus pada Kualitas."];
+  
+var va4 = [" TDS kurang dari 90 dan kurang dari 50. Ada TDS Hampir NOL",
+" Air dengan TDS Kurang dari 90 dan Kurang dari 50. TDS Hampir NOL Tersedia.",
+" Dapatkan Air dengan TDS di Bawah 90 dan 50. TDS Hampir NOL Tersedia.",
+" Pilihan Air dengan TDS Kurang dari 90 dan Kurang dari 50. TDS Hampir NOL Tersedia.",
+" Nikmati Air dengan TDS di Bawah 90 dan 50. TDS Hampir NOL Tersedia.",
+" Air dengan TDS Rendah, Kurang dari 90 dan Kurang dari 50. TDS Hampir NOL Tersedia.",
+" Temukan Air dengan TDS di Bawah 90 dan 50. TDS Hampir NOL Tersedia.",
+" Dapatkan Air dengan TDS Kurang dari 90 dan Kurang dari 50. Ada TDS Hampir NOL.",
+" Pilihan Air dengan TDS Rendah, Kurang dari 90 dan Kurang dari 50. Ada TDS Hampir NOL.",
+" Nikmati Air dengan TDS di Bawah 90 dan 50. Ada TDS Hampir NOL."];
+
+const o = (document.title),r = o.substr(0, o.indexOf('-')).trim();
 function gC(b,a){return a[Math.floor((Math.abs(new Date().getTime()-tgT)/b)%a.length)]}
+
+var ta1i=gC(71e6,ta1),ta2i=gC(81e6,ta2),ta3i=gC(21e6,ta3),ta4i=gC(111e6,ta4),ua1i=gC(11e6,ua1);
+document.write('<h4>'+ta1i+ta2i+ta3i+ta4i+ua1i+' '+r+'</h4>');
+
+var va1i=gC(71e6,va1),va2i=gC(81e6,va2),va3i=gC(21e6,va3),va4i=gC(111e6,va4),ua1i=gC(11e6,ua1);
+document.write(va1i+va2i+va3i+va4i+ua1i+' '+r+'.<br/>');
+
 var t1i=gC(78e6,t1),t2i=gC(88e6,t2),t3i=gC(28e6,t3),t4i=gC(118e6,t4),u1i=gC(18e6,u1);
 document.write(t1i+t2i+t3i+t4i+u1i+' '+r+'.<br/><br/><br/>');
