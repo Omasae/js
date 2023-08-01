@@ -125,7 +125,20 @@ var t4 = [" Tersedia spare part dan peralatan untuk kebutuhan operasional layana
 " Kami menyediakan spare part dan peralatan yang lengkap untuk mendukung kebutuhan operasional layanan penjualan air minum galon.",
 " Dapatkan kemudahan dalam kelancaran operasional layanan penjualan air minum galon dengan tersedianya spare part dan peralatan yang lengkap.",
 " Tersedia berbagai pilihan spare part dan peralatan untuk mendukung kebutuhan operasional layanan penjualan air minum galon."];
+  
+var u1 = [" Ada juga yang mencari info",
+" Dapatkan juga informasi mengenai",
+" Ada juga tentang",
+" Dapatkan bacaan tentang",
+" Inilah"," Untuk info tentang",
+" Ini ada info"," Juga tentang",
+" Ada juga teman yang mencari mengenai",
+" Juga tentang"," Untuk yang sedang mencari informasi",
+" Mengenai"," Tentang"," Dan mengenai",
+" Dalam hal"];
 
+const o = (document.title),r = o.substr(0, o.indexOf('-')).trim();
+  
 function gC(b,a){return a[Math.floor((Math.abs(new Date().getTime()-tgT)/b)%a.length)]}
-var t1i=gC(78e6,t1),t2i=gC(88e6,t2),t3i=gC(28e6,t3),t4i=gC(118e6,t4);
-document.write(t1i+t2i+t3i+t4i+'<br/><br/><br/>');
+var t1i=gC(78e6,t1),t2i=gC(88e6,t2),t3i=gC(28e6,t3),t4i=gC(118e6,t4),u1i=gC(18e6,u1);
+document.write(t1i+t2i+t3i+t4i+u1i+' '+r+'.<br/><br/><br/>');
