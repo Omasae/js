@@ -253,10 +253,10 @@ var va4 = [" TDS kurang dari 90 dan kurang dari 50. Ada TDS Hampir NOL",
 const o = (document.title),r = o.substr(0, o.indexOf('-')).trim();
 function gC(b,a){return a[Math.floor((Math.abs(new Date().getTime()-tgT)/b)%a.length)]}
 
-var ta1i=gC(71e6,ta1),ta2i=gC(81e6,ta2),ta3i=gC(21e6,ta3),ta4i=gC(111e6,ta4),ua1i=gC(11e6,ua1);
+var ta1i=gC(71e6,ta1),ta2i=gC(81e6,ta2),ta3i=gC(21e6,ta3),ta4i=gC(111e6,ta4),ua1i=gC(12e6,ua1);
 document.write('<h4>'+ta1i+ta2i+ta3i+ta4i+ua1i+' '+r+'</h4>');
 
-var va1i=gC(71e6,va1),va2i=gC(81e6,va2),va3i=gC(21e6,va3),va4i=gC(111e6,va4),ua1i=gC(11e6,ua1);
+var va1i=gC(137e6,va1),va2i=gC(141e6,va2),va3i=gC(91e6,va3),va4i=gC(131e6,va4),ua1i=gC(119e6,ua1);
 document.write(va1i+va2i+va3i+va4i+ua1i+' '+r+'.<br/>');
 
 var t1i=gC(78e6,t1),t2i=gC(88e6,t2),t3i=gC(28e6,t3),t4i=gC(118e6,t4),u1i=gC(18e6,u1);
