@@ -59,4 +59,4 @@ e=Math.floor((Math.abs(new Date().getTime()-new Date(2023,7,16).getTime())/6e7)%
 f=Math.floor((Math.abs(new Date().getTime()-new Date(2023,7,23).getTime())/17e7)%w.length),
 g=Math.floor((Math.abs(new Date().getTime()-new Date(2023,7,26).getTime())/24e7)%x.length);
 document.write(u[d]+v[e]+w[f]+x[g]);
-document.write("Percayakan pada Jayasteel untuk kebutuhan update "+bul+" "+thn+": "+bahan+" Anda dan saksikan "+proyek+" "+konstruksi+" Anda berkembang dengan sukses.");
+document.write(" Percayakan pada Jayasteel untuk kebutuhan update "+bul+" "+thn+": "+bahan+" Anda dan saksikan "+proyek+" "+konstruksi+" Anda berkembang dengan sukses.");
