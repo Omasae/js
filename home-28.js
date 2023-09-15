@@ -1,13 +1,13 @@
 document.write("Keandalan dan kualitas adalah prinsip utama kami dalam menyediakan <b>"+y7i+"</b>, <b>"+y8i+"</b>, dan "+ringan+" untuk "+proyek+" "+konstruksi+" Anda. ");
-var u = [" Jayasteel bekerja sama dengan pemasok terpercaya&nbsp;",
-" Jayasteel bermitra dengan pemasok yang dapat diandalkan",
-" Jayasteel bekerja sama dengan pemasok yang terpercaya",
-" Jayasteel berkolaborasi dengan suplier tepercaya",
-" Jayasteel menjalin kemitraan dengan suplier terpercaya",
-" Jayasteel berkerjasama dengan pemasok yang bisa dipercaya",
-" Jayasteel bermitra dengan pemasok andal",
-" Jayasteel bekerja sama dengan pemasok yang dapat dipertanggungjawabkan",
-" Mitra Jayasteel suplier terbaik"];
+var u = [" Jayasteel bekerja sama dengan pemasok terpercaya,",
+" Jayasteel bermitra dengan pemasok yang dapat diandalkan,",
+" Jayasteel bekerja sama dengan pemasok yang terpercaya,",
+" Jayasteel berkolaborasi dengan suplier tepercaya,",
+" Jayasteel menjalin kemitraan dengan suplier terpercaya,",
+" Jayasteel berkerjasama dengan pemasok yang bisa dipercaya,",
+" Jayasteel bermitra dengan pemasok andal,",
+" Jayasteel bekerja sama dengan pemasok yang dapat dipertanggungjawabkan,",
+" Mitra Jayasteel suplier terbaik,"];
 var v = [" untuk memastikan bahwa setiap produk yang kami sediakan memenuhi standar kualitas yang ketat.",
 " demi memastikan setiap produk yang kami tawarkan memenuhi standar kualitas yang ketat.",
 " kami berkomitmen untuk memastikan bahwa semua produk yang kami sediakan mematuhi standar kualitas yang baik.",
@@ -32,7 +32,7 @@ var w = [" Dengan pengiriman yang tepat waktu dan pelayanan pelanggan yang ramah
 " Pengiriman yang selalu tepat waktu dan layanan pelanggan yang ramah adalah inti dari bisnis kami,",
 " Dengan pengiriman yang konsisten tepat waktu dan pelayanan pelanggan yang ramah,",
 " Kepercayaan pelanggan kami dibangun dengan pengiriman yang tepat waktu dan pelayanan yang ramah,",
-" Kami terkenal karena pengiriman tepat waktu dan layanan pelanggan yang ramah,",
+" Kami dikenal karena pengiriman tepat waktu dan layanan pelanggan yang ramah,",
 " Pengiriman yang teratur tepat waktu dan pelayanan pelanggan yang ramah adalah tanda pengenal kami,",
 " Kami berkomitmen untuk memberikan pengiriman yang tepat waktu dan pelayanan pelanggan yang memuaskan,",
 " Keunggulan kami adalah pengiriman tepat waktu dan pelayanan pelanggan yang bersahabat,"];
