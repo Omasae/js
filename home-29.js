@@ -43,6 +43,6 @@ var w = [" kami menawarkan fleksibilitas",
 " kami siap untuk menyesuaikan diri demi kenyamanan Anda,"];
 var d=Math.floor((Math.abs(new Date().getTime()-new Date(2023,8,6).getTime())/12e7)%u.length),
 e=Math.floor((Math.abs(new Date().getTime()-new Date(2023,8,16).getTime())/7e7)%v.length),
-f=Math.floor((Math.abs(new Date().getTime()-new Date(2023,8,23).getTime())/16e7)%w.length),
+f=Math.floor((Math.abs(new Date().getTime()-new Date(2023,8,23).getTime())/16e7)%w.length);
 document.write(u[d]+v[e]+w[f]);
 document.write("untuk memenuhi kebutuhan "+konstruksi+" Anda. Kami memahami pentingnya "+proyek+" Anda, dan itulah mengapa Jayasteel berdedikasi untuk memberikan produk terbaik dan solusi yang tepat. Percayakan pada Jayasteel untuk kebutuhan update "+bul+" "+thn+": "+bahan+" Anda dan saksikan "+proyek+" Anda menjadi kenyataan.");
