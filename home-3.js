@@ -1,1 +1,53 @@
-document.write("3. Dapatkan kekuatan dan ketahanan yang dibutuhkan untuk "+proyek+" "+konstruksi+" Anda. <b>"+y7i+"</b> SNI Jayasteel memiliki berbagai ukuran diameter mulai dari 6 mm hingga 32 mm, sedangkan <b>"+y8i+"</b> hadir dalam ukuran standar 2,1 m x 5,4 m atau 54 m dengan diameter kawat berkisar antara 4 mm hingga 12 mm. "+ringan+" kami juga menawarkan desain praktis, fungsional, dan tahan karat. Percayakan "+konstruksi+" Anda pada produk berkualitas dari Jayasteel.<br>Dengan menggunakan besi beton atau baja tulangan, struktur bangunan dapat lebih tangguh dan dapat menahan beban yang diberikan. Ini adalah langkah penting dalam memastikan kekuatan dan keamanan struktur bangunan.<br>Ukuran standar untuk Wiremesh lembaran adalah 2,1 x 5,4 meter. Namun, untuk diameter tulangan kecil seperti M4, M5, dan M6, juga tersedia dalam bentuk gulungan dengan ukuran 2,1 x 54 meter. Ini memberikan fleksibilitas dalam memenuhi berbagai kebutuhan konstruksi yang beragam.");
+document.write("3. Dapatkan kekuatan dan ketahanan yang dibutuhkan untuk "+proyek+" "+konstruksi+" Anda. <b>"+y7i+"</b> SNI Jayasteel memiliki berbagai ukuran diameter mulai dari 6 mm hingga 32 mm, sedangkan <b>"+y8i+"</b> hadir dalam ukuran standar 2,1 m x 5,4 m atau 54 m dengan diameter kawat berkisar antara 4 mm hingga 12 mm. "+ringan+" kami juga menawarkan desain praktis, fungsional, dan tahan karat. Percayakan "+konstruksi+" Anda pada produk berkualitas dari Jayasteel.<br>");
+var u = [" Dengan menggunakan besi beton atau baja tulangan, struktur bangunan dapat lebih tangguh dan dapat menahan beban yang diberikan.",
+" Menggunakan besi beton atau baja tulangan, struktur bangunan menjadi lebih kokoh dan mampu menahan berat yang diberikan.",
+" Dengan besi beton atau baja tulangan, kekuatan struktur bangunan bisa ditingkatkan dan mampu menopang beban yang dikenakan.",
+" Besi beton atau baja tulangan dapat meningkatkan ketahanan struktur bangunan dan mampu menanggung beban yang diberikan.",
+" Struktur bangunan yang diperkuat dengan besi beton atau baja tulangan menjadi lebih tangguh dan mampu menahan beban.",
+" Menggunakan besi beton atau baja tulangan, struktur bangunan menjadi lebih kuat dan dapat menopang berat yang diberikan.",
+" Dengan besi beton atau baja tulangan, struktur bangunan dapat diperkuat sehingga mampu menanggung beban yang dikenakan.",
+" Besi beton atau baja tulangan meningkatkan keandalan struktur bangunan dan mampu menopang beban yang diberikan.",
+" Struktur bangunan yang diperkuat dengan besi beton atau baja tulangan menjadi lebih tahan lama dan mampu menahan beban.",
+" Dengan mengaplikasikan besi beton atau baja tulangan, struktur bangunan dapat diperkuat dan mampu menopang berat yang diberikan."];
+var v = [" Ini",
+" Tahapan ini",
+" Proses ini",
+" Langkah ini"];
+var w = [" adalah langkah penting",
+" sangat krusial",
+" merupakan langkah yang sangat penting",
+" adalah elemen kunci",
+" memainkan peran vital",
+" merupakan tindakan yang sangat signifikan",
+" sangat penting",
+" adalah bagian esensial",
+" memiliki peran kunci",
+" merupakan unsur utama",
+" memiliki signifikansi yang besar",
+" adalah langkah yang sangat penting",
+" memegang peran sentral",
+" adalah faktor utama"];
+var x = [" untuk menjamin",
+" dalam menjaga",
+" untuk memastikan"];
+var y = [" kekuatan dan keamanan struktur bangunan.",
+" struktur bangunan tetap kuat dan aman.",
+" struktur bangunan agar tetap kokoh dan aman.",
+" kekuatan dan keamanan struktur bangunan.",
+" kekuatan serta keselamatan struktur bangunan.",
+" kekuatan dan keselamatan struktur bangunan.",
+" struktur bangunan tetap terjaga dalam hal kekuatan dan keamanan.",
+" kekuatan serta keselamatan struktur bangunan.",
+" struktur bangunan tetap kuat dan aman.",
+" kekuatan serta keselamatan struktur bangunan.",
+" kekuatan dan keamanan struktur bangunan.",
+" struktur bangunan tetap kokoh dan aman.",
+" kekuatan serta keselamatan struktur bangunan.",
+" struktur bangunan agar tetap kuat dan aman."];
+var d=Math.floor((Math.abs(new Date().getTime()-new Date(2023,7,6).getTime())/13e7)%u.length),
+e=Math.floor((Math.abs(new Date().getTime()-new Date(2023,7,16).getTime())/6e7)%v.length),
+f=Math.floor((Math.abs(new Date().getTime()-new Date(2023,7,23).getTime())/17e7)%w.length),
+g=Math.floor((Math.abs(new Date().getTime()-new Date(2023,7,26).getTime())/24e7)%x.length),
+h=Math.floor((Math.abs(new Date().getTime()-new Date(2023,7,26).getTime())/14e7)%y.length);
+document.write(u[d]+v[e]+w[f]+x[g]+y[h]);
+document.write("<br>Ukuran standar untuk Wiremesh lembaran adalah 2,1 x 5,4 meter. Namun, untuk diameter tulangan kecil seperti M4, M5, dan M6, juga tersedia dalam bentuk gulungan dengan ukuran 2,1 x 54 meter. Ini memberikan fleksibilitas dalam memenuhi berbagai kebutuhan konstruksi yang beragam.");
