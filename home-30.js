@@ -1,1 +1,44 @@
-document.write("Jayasteel adalah mitra yang dapat Anda andalkan dalam setiap "+proyek+" "+konstruksi+". Dapatkan <b>"+y7i+"</b>, <b>"+y8i+"</b>, dan "+ringan+" dengan kualitas terbaik. Dengan produk-produk berkualitas, Jayasteel memberikan jaminan bahwa fondasi "+proyek+" Anda akan kokoh dan kuat. Kepercayaan pelanggan adalah prioritas utama kami, dan kami berusaha keras untuk memberikan layanan yang melebihi ekspektasi. Percayakan pada Jayasteel untuk kebutuhan update "+bul+" "+thn+": "+bahan+" Anda dan rasakan perbedaan yang Jayasteel tawarkan.");
+document.write("Jayasteel adalah mitra yang dapat Anda andalkan dalam setiap "+proyek+" "+konstruksi+". Dapatkan <b>"+y7i+"</b>, <b>"+y8i+"</b>, dan "+ringan+" dengan kualitas terbaik. Dengan produk-produk berkualitas, Jayasteel memberikan jaminan bahwa fondasi "+proyek+" Anda akan kokoh dan kuat.");
+var u = [" Kepercayaan pelanggan adalah prioritas utama kami,",
+" Prioritas utama kami adalah kepercayaan pelanggan,",
+" Kami menempatkan kepercayaan pelanggan sebagai prioritas tertinggi,",
+" Kepercayaan pelanggan menduduki peringkat utama dalam nilai-nilai kami,",
+" Kepercayaan pelanggan adalah hal yang paling penting bagi kami,",
+" Prioritas utama dalam bisnis kami adalah memenangkan kepercayaan pelanggan,",
+" Kami berkomitmen untuk menjaga kepercayaan pelanggan di atas segalanya,",
+" Kepercayaan pelanggan adalah fondasi dari filosofi kami,",
+" Kami selalu berusaha memenangkan dan memelihara kepercayaan pelanggan,",
+" Kepercayaan pelanggan adalah fokus utama dalam setiap tindakan kami,",
+" Kami menganggap kepercayaan pelanggan sebagai hal yang tak tergantikan,",
+" Prioritas kami yang utama adalah membangun dan merawat kepercayaan pelanggan,",
+" Kami bekerja keras untuk memenangkan kepercayaan pelanggan setiap hari,",
+" Kepercayaan pelanggan adalah landasan dari semua yang kami lakukan,"];
+var v = [" dan kami berusaha keras untuk memberikan layanan",
+" Kami berupaya keras untuk memberikan layanan",
+" Upaya kami terus menerus untuk memberikan layanan",
+" Kami selalu berjuang untuk memberikan layanan",
+" Kami berkomitmen untuk selalu memberikan layanan",
+" Dengan tekad tinggi, kami berusaha memberikan layanan",
+" Layanan kami dirancang untuk",
+" Kami selalu bekerja keras agar layanan kami",
+" Layanan kami diarahkan untuk",
+" Upaya kami tidak pernah berhenti untuk memberikan layanan",
+" Kami berupaya ekstra untuk memastikan layanan kami",
+" Misi kami adalah memberikan layanan"];
+var w = [" yang melebihi ekspektasi.",
+" yang melampaui harapan.",
+" yang melebihi ekspektasi.",
+" yang melebihi yang Anda harapkan.",
+" yang melewati batas ekspektasi.",
+" yang melebihi segala harapan.",
+" melebihi apa yang mungkin Anda harapkan.",
+" berada di atas ekspektasi.",
+" selalu mengungguli apa yang Anda duga.",
+" yang melebihi ekspektasi.",
+" selalu melampaui harapan. Memberi lebih.",
+" yang selalu melebihi yang Anda bayangkan."];
+var d=Math.floor((Math.abs(new Date().getTime()-new Date(2023,8,6).getTime())/12e7)%u.length),
+e=Math.floor((Math.abs(new Date().getTime()-new Date(2023,8,16).getTime())/7e7)%v.length),
+f=Math.floor((Math.abs(new Date().getTime()-new Date(2023,8,23).getTime())/16e7)%w.length);
+document.write(u[d]+v[e]+w[f]);
+document.write("Percayakan pada Jayasteel untuk kebutuhan update "+bul+" "+thn+": "+bahan+" Anda dan rasakan perbedaan yang Jayasteel tawarkan.");
