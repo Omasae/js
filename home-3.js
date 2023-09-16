@@ -1,4 +1,4 @@
-document.write("3. Dapatkan kekuatan dan ketahanan yang dibutuhkan untuk "+proyek+" "+konstruksi+" Anda. <b>"+y7i+"</b> SNI Jayasteel memiliki berbagai ukuran diameter mulai dari 6 mm hingga 32 mm, sedangkan <b>"+y8i+"</b> hadir dalam ukuran standar 2,1 m x 5,4 m atau 54 m dengan diameter kawat berkisar antara 4 mm hingga 12 mm. "+ringan+" kami juga menawarkan desain praktis, fungsional, dan tahan karat. Percayakan "+konstruksi+" Anda pada produk berkualitas dari Jayasteel.<br>");
+document.write("3. Dapatkan kekuatan dan ketahanan yang dibutuhkan untuk "+proyek+" "+konstruksi+" Anda. <b>"+y7i+"</b> SNI Jayasteel memiliki berbagai ukuran diameter mulai dari 6 mm hingga 32 mm, sedangkan <b>"+y8i+"</b> hadir dalam ukuran standar 2,1 m x 5,4 m atau 54 m dengan diameter kawat berkisar antara 4 mm hingga 12 mm. "+ringan+" kami juga menawarkan desain praktis, fungsional, dan tahan karat. Percayakan "+konstruksi+" Anda pada produk berkualitas dari Jayasteel.");
 var u = [" Dengan menggunakan besi beton atau baja tulangan, struktur bangunan dapat lebih tangguh dan dapat menahan beban yang diberikan.",
 " Menggunakan besi beton atau baja tulangan, struktur bangunan menjadi lebih kokoh dan mampu menahan berat yang diberikan.",
 " Dengan besi beton atau baja tulangan, kekuatan struktur bangunan bisa ditingkatkan dan mampu menopang beban yang dikenakan.",
@@ -50,4 +50,4 @@ f=Math.floor((Math.abs(new Date().getTime()-new Date(2023,7,23).getTime())/17e7)
 g=Math.floor((Math.abs(new Date().getTime()-new Date(2023,7,26).getTime())/24e7)%x.length),
 h=Math.floor((Math.abs(new Date().getTime()-new Date(2023,7,26).getTime())/14e7)%y.length);
 document.write(u[d]+v[e]+w[f]+x[g]+y[h]);
-document.write("<br>Ukuran standar untuk Wiremesh lembaran adalah 2,1 x 5,4 meter. Namun, untuk diameter tulangan kecil seperti M4, M5, dan M6, juga tersedia dalam bentuk gulungan dengan ukuran 2,1 x 54 meter. Ini memberikan fleksibilitas dalam memenuhi berbagai kebutuhan konstruksi yang beragam.");
+document.write(" Ukuran standar untuk Wiremesh lembaran adalah 2,1 x 5,4 meter. Namun, untuk diameter tulangan kecil seperti M4, M5, dan M6, juga tersedia dalam bentuk gulungan dengan ukuran 2,1 x 54 meter. Ini memberikan fleksibilitas dalam memenuhi berbagai kebutuhan konstruksi yang beragam.");
