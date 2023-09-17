@@ -7,8 +7,6 @@ t1[4] = "Update Ongkos ";
 t1[5] = "Ongkos Terbaru ";
 t1[6] = "Harga Hari Ini ";
 t1[7] = "Harga Terkini ";
-var t1i = Math.floor(8*Math.random());
-var t1i = t1[t1i];
 
 var t2 = new Array ();
 t2[0] = "dan Info ";
@@ -18,8 +16,6 @@ t2[3] = "dan ";
 t2[4] = "& ";
 t2[5] = "- ";
 t2[6] = "dalam ";
-var t2i = Math.floor(7*Math.random());
-var t2i = t2[t2i];
 
 arrb = ["Januari","Februari","Maret","April","Mei","Juni","Juli","Agustus","September","Oktober","November","Desember"];
 date = new Date();
@@ -44,8 +40,6 @@ r3[12] = " Cari perkembangan ";
 r3[13] = " Anda mencari update ";
 r3[14] = " Anda ingin dapat pembaruan ";
 r3[15] = " Anda ingin berita terkini ";
-var r3i = Math.floor(16*Math.random());
-var r3i = r3[r3i];
 
 var r4 = new Array ();
 r4[0] = " yang berhubungan dengan ";
@@ -62,15 +56,11 @@ r4[10] = " yang ada sangkutannya dengan ";
 r4[11] = " info tambahan tentang ";
 r4[12] = " artikel mengenai ";
 r4[13] = " berita tentang ";
-var r4i = Math.floor(14*Math.random());
-var r4i = r4[r4i];
 
 var j1 = new Array ();
 j1[0] = " ";
 j1[1] = " update";
 j1[2] = " untuk";
-var j1i = Math.floor(3*Math.random());
-var j1i = j1[j1i];
 
 var j2 = new Array ();
 j2[0] = " harga";
@@ -80,8 +70,6 @@ j2[3] = " informasi";
 j2[4] = " kabar";
 j2[5] = " berita";
 j2[6] = " ";
-var j2i = Math.floor(7*Math.random());
-var j2i = j2[j2i];
 
 var j3 = new Array ();
 j3[0] = " terbaru";
@@ -95,8 +83,6 @@ j3[7] = " model yang paling banyak dipesan dengan harga terbaik";
 j3[8] = " saat ini paling murah";
 j3[9] = " minggu ini";
 j3[10] = " model favorit";
-var j3i = Math.floor(11*Math.random());
-var j3i = j3[j3i];
 
-function gC(a){return a[Math.floor((Math.abs(new Date().getTime()-tgT)/72e6)%a.length)]}
-var rrt6i=gC(rrt6),rtt7i=gC(rtt7),rrt8i=gC(rrt8),rtt9i=gC(rtt9),r_ti=gC(r_t), rti=gC(rt),rrti=gC(rrt),rt1i=gC(rt1),rtti=gC(rtt),rt2i=gC(rt2),rt3i=gC(rt3);
+function gC(a){return a[Math.floor((Math.abs(new Date().getTime()-tgT)/96e6)%a.length)]}
+var t1i=gC(t1),t2i=gC(t2),r3i=gC(r3),r4i=gC(r4),j1i=gC(j1), j2i=gC(j2),j3i=gC(j3);
