@@ -1,4 +1,4 @@
-document.write(" Jayasteel adalah sumber terpercaya untuk semua kebutuhan update "+bul+" "+thn+": "+bahan+" Anda. Dapatkan <b>"+y7i+"</b>, <b>"+y8i+"</b>, "+ringan+", dan produk update "+bul+" "+thn+": "+bahan+" lainnya.");
+document.write(" Jayasteel adalah sumber terpercaya untuk semua kebutuhan update "+bul+" "+thn+" "+bahan+" Anda. Dapatkan <b>"+y7i+"</b>, <b>"+y8i+"</b>, "+ringan+", dan produk update "+bul+" "+thn+": "+bahan+" lainnya.");
 var x = [" Dengan kemitraan",
 " Dengan rekan",
 " Dengan mitra",
