@@ -1,3 +1,66 @@
+var f = [" Proses rolling dilakukan berulang kali dengan menggunakan caliber tertentu,",
+" Caliber tertentu digunakan dalam proses rolling yang diulang berulang kali,",
+" Dalam proses rolling, caliber tertentu digunakan secara berulang-ulang,",
+" Proses rolling dilakukan berkali-kali dengan menggunakan caliber khusus,",
+" Caliber tertentu digunakan berulang kali dalam proses rolling,",
+" Dalam proses rolling, penggunaan caliber tertentu diulang secara terus-menerus,",
+" Proses rolling dilakukan secara berulang dengan menggunakan caliber tertentu,",
+" Caliber khusus digunakan berulang kali dalam proses rolling,",
+" Dalam proses rolling, caliber tertentu diterapkan secara berulang-ulang,",
+" Proses rolling dilaksanakan berulang kali dengan menggunakan caliber spesifik,",
+" Caliber tertentu dipakai berulang-ulang dalam proses rolling,",
+" Dalam proses rolling, penggunaan caliber tertentu diulang berkali-kali,",
+" Proses rolling dijalankan berulang kali menggunakan caliber tertentu,"];
+var g = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, 6).getTime()) / 6e7) % f.length);
+var h = [" Proses rolling dilakukan berulang kali dengan menggunakan caliber tertentu,",
+" Caliber tertentu digunakan dalam proses rolling yang diulang berulang kali,",
+" Dalam proses rolling, caliber tertentu digunakan secara berulang-ulang,",
+" Proses rolling dilakukan berkali-kali dengan menggunakan caliber khusus,",
+" Caliber tertentu digunakan berulang kali dalam proses rolling,",
+" Dalam proses rolling, penggunaan caliber tertentu diulang secara terus-menerus,",
+" Proses rolling dilakukan secara berulang dengan menggunakan caliber tertentu,",
+" Caliber khusus digunakan berulang kali dalam proses rolling,",
+" Dalam proses rolling, caliber tertentu diterapkan secara berulang-ulang,",
+" Proses rolling dilaksanakan berulang kali dengan menggunakan caliber spesifik,",
+" Caliber tertentu dipakai berulang-ulang dalam proses rolling,",
+" Dalam proses rolling, penggunaan caliber tertentu diulang berkali-kali,",
+" Proses rolling dijalankan berulang kali menggunakan caliber tertentu,"];
+var i = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, 9).getTime()) / 8e7) % h.length);
+var j = [" Proses rolling dilakukan berulang kali dengan menggunakan caliber tertentu,",
+" Caliber tertentu digunakan dalam proses rolling yang diulang berulang kali,",
+" Dalam proses rolling, caliber tertentu digunakan secara berulang-ulang,",
+" Proses rolling dilakukan berkali-kali dengan menggunakan caliber khusus,",
+" Caliber tertentu digunakan berulang kali dalam proses rolling,",
+" Dalam proses rolling, penggunaan caliber tertentu diulang secara terus-menerus,",
+" Proses rolling dilakukan secara berulang dengan menggunakan caliber tertentu,",
+" Caliber khusus digunakan berulang kali dalam proses rolling,",
+" Dalam proses rolling, caliber tertentu diterapkan secara berulang-ulang,",
+" Proses rolling dilaksanakan berulang kali dengan menggunakan caliber spesifik,",
+" Caliber tertentu dipakai berulang-ulang dalam proses rolling,",
+" Dalam proses rolling, penggunaan caliber tertentu diulang berkali-kali,",
+" Proses rolling dijalankan berulang kali menggunakan caliber tertentu,"];
+var k = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, 9).getTime()) / 8e7) % j.length);
+var l = [" Akibat tekanan dan tarikan yang diberikan,",
+" Dikarenakan adanya tekanan dan tarikan yang diberikan,",
+" Sebagai hasil dari tekanan dan tarikan yang diterapkan,",
+" Akibat tekanan dan tarikan yang diberlakukan,",
+" Dalam akibat tekanan dan tarikan yang diberikan,",
+" Sebagai hasil dari tekanan dan gaya tarik yang diberikan,",
+" Dikarenakan adanya tekanan dan tarikan yang diberlakukan,",
+" Akibat tekanan dan gaya tarik yang diterapkan,",
+" Dalam hasil dari tekanan dan tarikan yang diberikan,",
+" Sebagai dampak dari tekanan dan tarikan yang diberlakukan,"];
+var m = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, 9).getTime()) / 8e7) % l.length);
+var n = [" billet berubah bentuk menjadi lebih kecil dan lebih panjang.",
+" bentuk billet berubah menjadi lebih panjang dan lebih kecil.",
+" billet mengalami perubahan bentuk, menjadi lebih panjang dan lebih kecil.",
+" dalam proses ini, billet mengalami transformasi menjadi bentuk yang lebih kecil dan panjang.",
+" billet mengalami perubahan bentuk, menjadi lebih panjang dan lebih kecil.",
+" bentuk billet diubah menjadi lebih kecil dan panjang selama proses.",
+" melalui proses ini, billet mengalami perubahan bentuk menjadi lebih kecil dan lebih panjang.",
+" perubahan bentuk billet terjadi, membuatnya lebih panjang dan lebih kecil.",
+" billet mengalami transformasi, mengubahnya menjadi bentuk yang lebih panjang dan lebih kecil."];
+var o = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, 9).getTime()) / 8e7) % n.length);
 var u = [" Proses rolling dilakukan berulang kali dengan menggunakan caliber tertentu,",
 " Caliber tertentu digunakan dalam proses rolling yang diulang berulang kali,",
 " Dalam proses rolling, caliber tertentu digunakan secara berulang-ulang,",
@@ -12,4 +75,4 @@ var u = [" Proses rolling dilakukan berulang kali dengan menggunakan caliber ter
 " Dalam proses rolling, penggunaan caliber tertentu diulang berkali-kali,",
 " Proses rolling dijalankan berulang kali menggunakan caliber tertentu,"];
 var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 3e7) % u.length);
-document.write("Bagaimana cara pembuatan besi beton?<br />Proses pembuatan <b>besi beton</b> dimulai dengan menggunakan rolling mill. Bahan baku berupa billet (baja dalam bentuk kotak panjang) dipanaskan hingga mencapai suhu yang hampir mencapai titik leburnya. Setelah itu, billet tersebut digiling menggunakan roll yang berputar. Akibat tekanan dan tarikan yang diberikan, billet berubah bentuk menjadi lebih kecil dan lebih panjang."+u[d]+"hingga mencapai ukuran <b>besi beton</b> yang diinginkan.");
+document.write(f[g]+" Proses pembuatan <b>besi beton</b> dimulai dengan menggunakan rolling mill."+h[i]+j[k]+l[m]+n[o]+u[d]+" hingga mencapai ukuran <b>besi beton</b> yang diinginkan.");
