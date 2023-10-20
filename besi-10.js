@@ -79,4 +79,4 @@ var u = [" Proses rolling dilakukan berulang kali dengan menggunakan caliber ter
 " Dalam proses rolling, penggunaan caliber tertentu diulang berkali-kali,",
 " Proses rolling dijalankan berulang kali menggunakan caliber tertentu,"];
 var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 3e7) % u.length);
-document.write(f[g]+" Proses pembuatan <b>besi beton</b> dimulai dengan menggunakan rolling mill."+h[i]+j[k]+l[m]+n[o]+u[d]+" hingga mencapai ukuran <b>besi beton</b> yang diinginkan.");
+document.write("<b>"f[g]+"</b> Proses pembuatan <b>besi beton</b> dimulai dengan menggunakan rolling mill."+h[i]+j[k]+l[m]+n[o]+u[d]+" hingga mencapai ukuran <b>besi beton</b> yang diinginkan.");
