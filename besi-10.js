@@ -12,5 +12,4 @@ var u = [" Proses rolling dilakukan berulang kali dengan menggunakan caliber ter
 " Dalam proses rolling, penggunaan caliber tertentu diulang berkali-kali,",
 " Proses rolling dijalankan berulang kali menggunakan caliber tertentu,"];
 var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 3e7) % u.length);
-document.write(u[d]+v[e]);
 document.write("Bagaimana cara pembuatan besi beton?<br />Proses pembuatan <b>besi beton</b> dimulai dengan menggunakan rolling mill. Bahan baku berupa billet (baja dalam bentuk kotak panjang) dipanaskan hingga mencapai suhu yang hampir mencapai titik leburnya. Setelah itu, billet tersebut digiling menggunakan roll yang berputar. Akibat tekanan dan tarikan yang diberikan, billet berubah bentuk menjadi lebih kecil dan lebih panjang."+u[d]+"hingga mencapai ukuran <b>besi beton</b> yang diinginkan.");
