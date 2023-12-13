@@ -14,7 +14,7 @@ bdi = document.getElementById("bdia").value;
 bpj = document.getElementById("bpjg").value;
 bbrt = bdi * bdi * bpj * 0.006165;
 bberat = bbrt.toFixed(2);
-  if (bdi < 6.1){bhbes = Number(hbesi) + 400}
+  if (bdi < 6.1){bhbes = Number(hbesi) + 300}
   else if (bdi > 12.9){bhbes = Number(hbesi) + 50}
   else{bhbes = Number(hbesi)}
 bharga = bhbes * bberat;
@@ -37,13 +37,13 @@ function bhitu(){
 if (window.innerWidth < 800){  
 var script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://suwur.github.io/js/daftar-besi-beton.js'; 
+    script.src = 'https://w.jayasteel.com/daftar-besi-beton.js'; 
     document.getElementsByTagName('head')[0].appendChild(script);
     return false;
 }else{
   var script = document.createElement('script');
     script.type = 'text/javascript';
-    script.src = 'https://suwur.github.io/js/tabel-besi-beton.js'; 
+    script.src = 'https://w.jayasteel.com/tabel-besi-beton.js'; 
     document.getElementsByTagName('head')[0].appendChild(script);
     return false;
 }
