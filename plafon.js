@@ -34,9 +34,9 @@ var w = ["Mereka akan membantu menyusun setiap sudut ruangan keluarga Anda denga
 "Dengan bantuan mereka, setiap sudut ruangan dapat dioptimalkan dengan efisien. Apapun gaya yang Anda pilih, baik itu minimalis atau klasik, semuanya bisa kami wujudkan. Jadi, jangan ragu lagi! Ayo segera rancang <b>plafon PVC</b> impian sekarang juga! ",
 "Dengan bantuan petugas kami, Anda dapat menyusun setiap sudut ruangan dengan lebih efisien. Tidak peduli gaya yang Anda inginkan, apakah minimalis atau klasik, semuanya dapat kami buat. Jadi, tunggu apalagi? Ayo rancang <b>plafon PVC</b> impian keluarga Anda sekarang juga! ",
 "Mereka siap membantu Anda untuk menyusun solusi terbaik. Dengan bantuan mereka, setiap sudut ruangan bisa dioptimalkan dengan efisien. Gaya minimalis atau yang lebih klasik, semuanya bisa kita ciptakan. Jadi, ayo mulai merancang <b>plafon PVC</b> impian keluarga Anda sekarang juga! "];
-var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 11)).getTime()) / 32e6) % u.length);
-var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 16)).getTime()) / 42e6) % v.length);
-var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 19)).getTime()) / 34e6) % w.length);
+var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, (tgN - 11)).getTime()) / 132e6) % u.length);
+var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 9, (tgN - 16)).getTime()) / 242e6) % v.length);
+var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 11, (tgN - 19)).getTime()) / 334e6) % w.length);
 document.write(u[d]+v[e]+w[f]);
 
 var u1 = [" Ada juga yang mencari info",
@@ -381,8 +381,8 @@ var w1 = [" di halaman lain di web ini",
 " untuk Anda bagikan",
 " yang bisa Anda share",
 " bisa dishare ke teman-teman"];
-var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 4)).getTime()) / 38e6) % u1.length);
-var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 22)).getTime()) / 29e6) % v1.length);
-  var e2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 24)).getTime()) / 37e6) % (v1.length - 1));
-var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 21)).getTime()) / 39e6) % w1.length);
+var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 9, (tgN - 4)).getTime()) / 138e6) % u1.length);
+var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, (tgN - 22)).getTime()) / 99e6) % v1.length);
+  var e2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 11, (tgN - 24)).getTime()) / 137e6) % (v1.length - 1));
+var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 11, (tgN - 21)).getTime()) / 239e6) % w1.length);
 document.write(u1[d1]+v1[e1]+w1[f1]+' &'+v1[e2]+'.<br/>');
