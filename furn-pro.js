@@ -35,5 +35,5 @@ var t3 = [" untuk memastikan bahwa furniture yang kita produksi memiliki presisi
   
 function gC(b,a){return a[Math.floor((Math.abs(new Date().getTime()-new Date(2023, 6, 11).getTime())/b)%a.length)]}
 
-var t1i=gC(78e6,t1),t2i=gC(88e6,t2),t3i=gC(28e6,t3);
+var t1i=gC(278e6,t1),t2i=gC(288e6,t2),t3i=gC(228e6,t3);
 document.getElementById("produksi").innerHTML = '<p><b>'+t1i+'</b></p><p class="ke">*'+t2i+t3i+'*</p>';
