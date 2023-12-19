@@ -37,9 +37,9 @@ var w = [" Anda bisa pilih sendiri ukuran, warna, dan bentuknya sesuai yang  And
 "Kami menyediakan desain custom dengan pilihan ukuran, warna, dan bentuk yang bisa Anda pilih.~ ",
 "Kami menyediakan desain custom dengan beragam pilihan ukuran, warna, dan bentuk.~ ",
 "Kami menawarkan desain custom dengan berbagai pilihan ukuran, warna, dan bentuk.~ "];
-var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 11)).getTime()) / 35e6) % u.length);
-var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 23)).getTime()) / 41e6) % v.length);
-var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 19)).getTime()) / 38e6) % w.length);
+var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 11, (tgN - 11)).getTime()) / 145e6) % u.length);
+var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 10, (tgN - 23)).getTime()) / 151e6) % v.length);
+var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 9, (tgN - 19)).getTime()) / 168e6) % w.length);
 document.write(u[d]+v[e]+w[f]+'<br/>');
 
 var u1 = ["Furnitur Omasae adalah yang terbaik",
@@ -90,9 +90,9 @@ var w1 = ["Kami ingin pastikan <b>plafon PVC</b> Anda tahan lama dan tidak mudah
 "Supaya furnitur Anda memiliki kualitas yang terbaik dan tahan lama.",
 "Kita berharap furnitur Anda tetap bagus dan dapat digunakan dalam waktu yang lama.",
 "Kami ingin furnitur Anda tetap awet dan memuaskan."];
-var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 10)).getTime()) / 34e6) % u1.length);
-var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 18)).getTime()) / 43e6) % v1.length);
-var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 15)).getTime()) / 37e6) % w1.length);
+var d1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 7, (tgN - 10)).getTime()) / 134e6) % u1.length);
+var e1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, (tgN - 18)).getTime()) / 243e6) % v1.length);
+var f1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 9, (tgN - 15)).getTime()) / 337e6) % w1.length);
 document.write(u1[d1]+v1[e1]+w1[f1]);
 
 var u2 = ["Hemat dan Berkualitas:",
@@ -152,9 +152,9 @@ var w2 = [" Jadi, Anda tidak perlu khawatir tentang budget yang Anda miliki.`",
 " kalian bisa memiliki <b>plafon PVC</b> yang tahan lama tanpa perlu mengeluarkan banyak uang.`",
 " Jadi, Anda bisa mendapatkan <b>plafon PVC</b> yang bagus tanpa perlu merogoh kocek terlalu dalam.`",
 " Dengan begitu, Anda bisa mendapatkan <b>plafon PVC</b> yang baik untuk rumah Anda tanpa harus membayar mahal."];
-var d2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 1)).getTime()) / 55e6) % u2.length);
-var e2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 4)).getTime()) / 83e5) % v2.length);
-var f2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 23)).getTime()) / 67e6) % w2.length);
+var d2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, (tgN - 1)).getTime()) / 155e6) % u2.length);
+var e2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 7, (tgN - 4)).getTime()) / 183e5) % v2.length);
+var f2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, (tgN - 23)).getTime()) / 167e6) % w2.length);
 document.write(u2[d2]+v2[e2]+w2[f2]+'<br/>');
 
 var u3 = [" Cepat dan Berkualitas:",
@@ -208,7 +208,7 @@ var w3 = [" pesanan Anda akan selesai tepat waktu.*",
 " Orderanmu akan jadi dengan kualitas yang terjamin.*",
 " pesanan Anda akan selesai dengan tepat waktu.*",
 " Orderan Anda akan selesai tepat waktu dengan kualitas yang tak tergoyahkan.*"];
-var d3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, tgN).getTime()) / 65e6) % u3.length);
-var e3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, (tgN - 3)).getTime()) / 97e5) % v3.length);
-var f3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, (tgN - 13)).getTime()) / 27e6) % w3.length);
+var d3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, tgN).getTime()) / 165e6) % u3.length);
+var e3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 9, (tgN - 3)).getTime()) / 197e5) % v3.length);
+var f3 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 10, (tgN - 13)).getTime()) / 127e6) % w3.length);
 document.write(u3[d3]+v3[e3]+w3[f3]+'<br/>'+tgN);
