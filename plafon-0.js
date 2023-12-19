@@ -34,9 +34,9 @@ var w = ["Mereka akan membantu menyusun setiap sudut ruangan keluarga dengan efi
 "Dengan bantuan mereka, setiap sudut ruangan anda dapat dioptimalkan dengan efisien. Apapun gaya yang Anda pilih, baik itu minimalis atau klasik, semuanya bisa kami wujudkan. Jadi, jangan ragu lagi! Ayo segera rancang <b>plafon PVC</b> impian anda sekarang juga! ",
 "Dengan bantuan petugas kami, Anda dapat menyusun setiap sudut ruangan dengan lebih efisien. Tidak peduli gaya yang Anda inginkan, apakah minimalis atau klasik, semuanya dapat kami buat. Jadi, tunggu apalagi? Ayo rancang <b>plafon PVC</b> impian anda sekarang juga! ",
 "Mereka siap membantu Anda untuk menyusun solusi terbaik. Dengan bantuan mereka, setiap sudut ruangan anda bisa dioptimalkan dengan efisien. Gaya minimalis atau yang lebih klasik, semuanya bisa kita ciptakan. Jadi, ayo mulai merancang <b>plafon PVC</b> impian anda sekarang juga! "];
-var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 11).getTime()) / 32e6) % u.length);
-var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 6).getTime()) / 42e6) % v.length);
-var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 6, 3).getTime()) / 34e6) % w.length);
+var d = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 11, 11).getTime()) / 132e6) % u.length);
+var e = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 10, 6).getTime()) / 242e6) % v.length);
+var f = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 12, 3).getTime()) / 334e6) % w.length);
 document.write(u[d]+v[e]+w[f]);
 
 var u1 = [" Ada juga yang mencari info",
