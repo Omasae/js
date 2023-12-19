@@ -340,15 +340,15 @@ var uu2 = [" yang dapat Anda simak",
 " sebagai sumber ide dan gagasan",
 " sebagai inspirasi"];
 
-var dd = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 12)).getTime()) / 77e6) % uu.length);
-var ee = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 17)).getTime()) / 28e6) % vv.length);
-var ff = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 5, (tgN - 16)).getTime()) / 87e6) % (ww.length - 1));
+var dd = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 7, (tgN - 12)).getTime()) / 177e6) % uu.length);
+var ee = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, (tgN - 17)).getTime()) / 128e6) % vv.length);
+var ff = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 9, (tgN - 16)).getTime()) / 187e6) % (ww.length - 1));
 document.write(uu[dd]+vv[ee]+ww[ff]);
 
-var dd1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, (tgN - 23)).getTime()) / 37e6) % (uu1.length - 1));
-var ee1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, (tgN - 13)).getTime()) / 47e6) % (vv1.length - 1));
-var ff1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, (tgN - 18)).getTime()) / 93e6) % ww1.length);
+var dd1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 10, (tgN - 23)).getTime()) / 137e6) % (uu1.length - 1));
+var ee1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 11, (tgN - 13)).getTime()) / 147e6) % (vv1.length - 1));
+var ff1 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 11, (tgN - 18)).getTime()) / 193e6) % ww1.length);
 document.write(uu1[dd1]+vv1[ee1]+ww[ff+1]+uu1[dd1+1]+vv1[ee1+1]+ww1[ff1]);
  
-var dd2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 4, (tgN - 5)).getTime()) / 13e7) % uu2.length);
+var dd2 = Math.floor((Math.abs(new Date().getTime() - new Date(2023, 8, (tgN - 5)).getTime()) / 33e7) % uu2.length);
 document.write(uu2[dd2]);
