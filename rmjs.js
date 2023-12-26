@@ -1,3 +1,5 @@
+function gC(a){return a[Math.floor((Math.abs(new Date().getTime()-new Date(2023,12,6).getTime())/972e6)%a.length)]}
+
 var rrr4 = new Array ();
 rrr4[0] = " Harga Besi";
 rrr4[1] = " Harga Besi Beton";
@@ -26,8 +28,6 @@ rrr4[23] = " Berat Besi Beton 10mm";
 rrr4[24] = " Rak Bunga Dari Besi Beton";
 rrr4[25] = " Daftar Harga Besi Beton Hari Ini";
 rrr4[26] = " Berat Besi Beton 12mm";
-var rrr4i = Math.floor(27*Math.random());
-var rrr4i = rrr4[rrr4i];
 
 var rr5 = new Array ();
 rr5[0] = " Harga Wiremesh";
@@ -65,8 +65,6 @@ rr5[31] = " Besi Wiremesh M8";
 rr5[32] = " Ukuran Besi Wiremesh";
 rr5[33] = " Harga Wiremesh M10";
 rr5[34] = " Harga Wiremesh M6";
-var rr5i = Math.floor(35*Math.random());
-var rr5i = rr5[rr5i];
 
 var rr6 = new Array ();
 rr6[0] = " <a href='#Harga+Besi'>Harga Besi</a>";
@@ -131,5 +129,5 @@ rr6[58] = " <a href='#Besi+Wiremesh+M8'>Besi Wiremesh M8</a>";
 rr6[59] = " <a href='#Ukuran+Besi+Wiremesh'>Ukuran Besi Wiremesh</a>";
 rr6[60] = " <a href='#Harga+Wiremesh+M10'>Harga Wiremesh M10</a>";
 rr6[61] = " <a href='#Harga+Wiremesh+M6'>Harga Wiremesh M6</a>";
-var rr6i = Math.floor(62*Math.random());
-var rr6i = rr6[rr6i];
+
+var rrr4i=gC(rrr4),rr6i=gC(rr6),rr5i=gC(rr5);
