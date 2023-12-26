@@ -1,3 +1,5 @@
+function gC(a){return a[Math.floor((Math.abs(new Date().getTime()-new Date(2023,12,6).getTime())/666e6)%a.length)]}
+
 var rrr1 = new Array ();
 rrr1[0] = " <a href='#Pagar+Baja+Ringan'>Pagar Baja Ringan</a> ";
 rrr1[1] = " <a href='#Pagar+Baja+Ringan+Minimalis'>Pagar Baja Ringan Minimalis</a> ";
@@ -1058,8 +1060,6 @@ rrr1[1055] = " <a href='#Pagar+Rangka+Baja+Ringan'>Pagar Rangka Baja Ringan</a> 
 rrr1[1056] = " <a href='#Analisa+Baja+Ringan'>Analisa Baja Ringan</a> ";
 rrr1[1057] = " <a href='#Analisa+Harga+Satuan+Baja+Ringan'>Analisa Harga Satuan Baja Ringan</a> ";
 rrr1[1058] = " <a href='#Amalan+Pagar+Rumah'>Amalan Pagar Rumah</a> ";
-var rrr1i = Math.floor(1059*Math.random());
-var rrr1i = rrr1[rrr1i];
 
 var rrr2 = new Array ();
 rrr2[0] = " Desain Pagar Rumah ";
@@ -1463,8 +1463,6 @@ rrr2[397] = " Desain Pagar Rumah Sederhana Dan Murah ";
 rrr2[398] = " Pagar Rumah Tembok Dan Besi ";
 rrr2[399] = " Pagar Rumah Perumahan ";
 rrr2[400] = " Desain Pagar Rumah Pojok Minimalis ";
-var rrr2i = Math.floor(401*Math.random());
-var rrr2i = rrr2[rrr2i];
 
 var rrr3 = new Array ();
 rrr3[0] = " Desain Pagar Rumah Pendek ";
@@ -1813,5 +1811,5 @@ rrr3[342] = " Desain Eksterior Minimalis ";
 rrr3[343] = " Desain Eksterior Rumah ";
 rrr3[344] = " Eksterior Rumah Modern ";
 rrr3[345] = " Desain Gerbang Rumah ";
-var rrr3i = Math.floor(346*Math.random());
-var rrr3i = rrr3[rrr3i];
+
+var rrr1i=gC(rrr1),rrr2i=gC(rrr2),rrr3i=gC(rrr3);
