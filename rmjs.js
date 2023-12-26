@@ -1,4 +1,4 @@
-function gC(a){return a[Math.floor((Math.abs(new Date().getTime()-new Date(2023,12,6).getTime())/972e6)%a.length)]}
+function gC(a){return a[Math.floor((Math.abs(new Date().getTime()-new Date(2023,12,6).getTime())/777e6)%a.length)]}
 
 var rrr4 = new Array ();
 rrr4[0] = " Harga Besi";
