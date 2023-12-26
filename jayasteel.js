@@ -47,5 +47,5 @@ var bln = arrb[bln];
 var bul = bln;
 var thn = date.getFullYear();
 
-function gC(a){return a[Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,6).getTime())/72e5)%a.length)]}
+function gC(a){return a[Math.floor((Math.abs(new Date().getTime()-new Date(2023,6,6).getTime())/972e5)%a.length)]}
 var y7i=gC(y7),y8i=gC(y8),t1i=gC(t1),f5i=gC(f5);
