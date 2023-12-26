@@ -1,3 +1,5 @@
+function gC(a){return a[Math.floor((Math.abs(new Date().getTime()-new Date(2023,12,6).getTime())/972e6)%a.length)]}
+
 var rrr4 = new Array ();
 rrr4[0] = " <a href='#Behel+10mm'>Behel 10mm</a>";
 rrr4[1] = " <a href='#Behel+12mm'>Behel 12mm</a>";
@@ -1261,8 +1263,6 @@ rrr4[1258] = " <a href='#Wiremesh+Ukuran+Kecil'>Wiremesh Ukuran Kecil</a>";
 rrr4[1259] = " <a href='#Wiremesh+Ulir'>Wiremesh Ulir</a>";
 rrr4[1260] = " <a href='#Wiremesh+Untuk+Dak+Beton'>Wiremesh Untuk Dak Beton</a>";
 rrr4[1261] = " <a href='#Wiremesh+Untuk+Dak+Rumah'>Wiremesh Untuk Dak Rumah</a>";
-var rrr4i = Math.floor(1262*Math.random());
-var rrr4i = rrr4[rrr4i];
 
 var rr6 = new Array ();
 rr6[0] = " behel 10mm";
@@ -2527,8 +2527,6 @@ rr6[1258] = " wiremesh ukuran kecil";
 rr6[1259] = " wiremesh ulir";
 rr6[1260] = " wiremesh untuk dak beton";
 rr6[1261] = " wiremesh untuk dak rumah";
-var rr6i = Math.floor(1262*Math.random());
-var rr6i = rr6[rr6i];
 
 var rr5 = new Array ();
 rr5[0] = " Harga Wiremesh";
@@ -2550,5 +2548,5 @@ rr5[15] = " Ukuran Wiremesh M8";
 rr5[16] = " Kawat Wiremesh";
 rr5[17] = " Wiremesh Adalah";
 rr5[18] = " Pagar Wiremesh";
-var rr5i = Math.floor(19*Math.random());
-var rr5i = rr5[rr5i];
+
+var rrr4i=gC(rrr4),rr6i=gC(rr6),rr5i=gC(rr5);
