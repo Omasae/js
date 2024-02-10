@@ -1,4 +1,4 @@
-var s1 = ["Perkenalkan kami dari ",
+var s13 = ["Perkenalkan kami dari ",
 "Selamat datang di ",
 "Salam ",
 "Inilah Persembahan dari ",
@@ -178,7 +178,7 @@ var rrr4 = [" Harga Besi",
 " Harga Besi Beton 6mm",
 " Daftar Harga Besi Beton Hari Ini"];
   
-var rrr4i="",s1i="",t1i="",t2i="",bbi="",r3i="",r4i="",j1i="",j2i="",j3i="",
+var rrr4i="",s13i="",t1i="",t2i="",bbi="",r3i="",r4i="",j1i="",j2i="",j3i="",
 rrti="",
 y7i="",
 y9i="",
