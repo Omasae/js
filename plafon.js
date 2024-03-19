@@ -1,4 +1,3 @@
-var tgN = tgN || 28;
 var u = ["Punya keinginan dan kebutuhan khusus untuk plafon PVC? Jangan khawatir! Anda bisa merancang sendiri <b>plafon PVC</b> yang unik sesuai dengan selera dan kebutuhan Anda. ",
 "Ingin memiliki <b>plafon PVC</b> yang spesial dan sesuai dengan keinginan Anda? Tidak perlu khawatir! Anda dapat merancang sendiri berbagai jenis <b>plafon PVC</b> yang Anda inginkan. ",
 "Mimpi punya <b>plafon PVC</b> yang benar-benar sesuai dengan keinginan Anda? Jangan khawatir! Anda bisa mendesain sendiri berbagai jenis <b>plafon PVC</b> custom sesuai dengan selera dan kebutuhan Anda. ",
