@@ -1,4 +1,3 @@
-document.write(tgM);document.write('----');
 var r1 = [" Pesan Plafon PVC Sesuai Keinginan",
 " Pesan Plafon PVC Dengan Keinginan keluarga Anda",
 " Dapatkan Plafon PVC yang Diinginkan",
@@ -57,5 +56,4 @@ var r3 = [" Anda bisa pilih sendiri ukuran, warna, dan bentuknya sesuai yang And
 function gC(b,a){return a[Math.floor((Math.abs(new Date().getTime()-tgM)/b)%a.length)]}
 
 var r1i=gC(178e6,r1),r2i=gC(188e6,r2),r3i=gC(128e6,r3);
-document.write('<p><b>'+r1i+'</b></p><p class="ke">'+r2i+r3i+'</p>');
 document.getElementById("custom").innerHTML = '<p><b>'+r1i+'</b></p><p class="ke">'+r2i+r3i+'</p>';
