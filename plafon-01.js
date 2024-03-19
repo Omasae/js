@@ -1,3 +1,4 @@
+var tgN = tgN || 28;
 var u = ["Plafon PVC Sesuai Keinginan: ",
 "Plafon PVC Custom: ",
 "Plafon PVC Sesuai Selera: ",
