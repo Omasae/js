@@ -1,5 +1,4 @@
-document.write('----');
-document.write(tgM);
+document.write(tgM);document.write('----');
 var r1 = [" Pesan Plafon PVC Sesuai Keinginan",
 " Pesan Plafon PVC Dengan Keinginan keluarga Anda",
 " Dapatkan Plafon PVC yang Diinginkan",
