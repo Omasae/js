@@ -1,4 +1,5 @@
 var tgM = tgM || 1710862500000;
+document.write(tgM);
 var r1 = [" Pesan Plafon PVC Sesuai Keinginan",
 " Pesan Plafon PVC Dengan Keinginan keluarga Anda",
 " Dapatkan Plafon PVC yang Diinginkan",
