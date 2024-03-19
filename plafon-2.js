@@ -1,4 +1,3 @@
-var tgN = tgN || 28;
 var uu = [" Selain itu, ada juga rekan lain yang sedang mencari informasi mengenai",
 " Di samping itu, ada juga orang lain yang tertarik untuk mengetahui lebih lanjut tentang",
 " Ada juga kenalan yang sedang mencari informasi terkait",
