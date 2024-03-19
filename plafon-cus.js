@@ -1,3 +1,4 @@
+var tgN = tgN || 28;
 var r1 = [" Pesan Plafon PVC Sesuai Keinginan",
 " Pesan Plafon PVC Dengan Keinginan keluarga Anda",
 " Dapatkan Plafon PVC yang Diinginkan",
